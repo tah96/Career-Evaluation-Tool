@@ -15,7 +15,7 @@ class Job(db.Model):
 
 @app.route("/")
 def index():
-    return "This is our employment data API"
+    return "This is our employment data API for Project 2 of the UNC Data Analytics Bootcamp"
 
 @app.route("/api/job-data")
 def getJobsPosgres():
