@@ -9,23 +9,23 @@ app.config["SQLALCHEMY_DATABASE_URI"] = environ.get(
 
 db = SQLAlchemy(app)
 
-class Task(db.Model):
+class Job(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     description = db.Column(db.String)
 
 @app.route("/")
 def index():
-    return "Hello world!"
+    return "This is our employment data API"
 
-@app.route("/api/tasks-posgres")
-def getTasksPosgres():
-    tasks = db.session.query(Task)
+@app.route("/api/job-data")
+def getJobsPosgres():
+    jobs = db.session.query(Job)
     data = []
 
-    for task in tasks:
+    for job in jobs:
         item = {
-            "id": task.id,
-            "description": task.description
+            "id": job.id,
+            "description": job.description
         }
         data.append(item)
 
