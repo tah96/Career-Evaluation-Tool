@@ -1,0 +1,184 @@
+,Employment Matrix Title,Employment Matrix Code
+3,Computer systems analysts,15-1211
+4,Information security analysts,15-1212
+5,Computer and information research scientists,15-1221
+7,Computer network support specialists,15-1231
+8,Computer user support specialists,15-1232
+10,Computer network architects,15-1241
+11,Network and computer systems administrators,15-1244
+12,Database administrators and architects,15-1245
+14,Computer programmers,15-1251
+15,Software developers and software quality assurance analysts and testers,15-1256
+16,Web developers and digital interface designers,15-1257
+17,"Computer occupations, all other",15-1299
+19,Actuaries,15-2011
+20,Mathematicians,15-2021
+21,Operations research analysts,15-2031
+22,Statisticians,15-2041
+23,"Data scientists and mathematical science occupations, all other",15-2098
+27,Lawyers,23-1011
+28,Judicial law clerks,23-1012
+30,"Administrative law judges, adjudicators, and hearing officers",23-1021
+31,"Arbitrators, mediators, and conciliators",23-1022
+32,"Judges, magistrate judges, and magistrates",23-1023
+34,Paralegals and legal assistants,23-2011
+36,"Title examiners, abstractors, and searchers",23-2093
+37,"Legal support workers, all other",23-2099
+40,"Business teachers, postsecondary",25-1011
+42,"Computer science teachers, postsecondary",25-1021
+43,"Mathematical science teachers, postsecondary",25-1022
+45,"Architecture teachers, postsecondary",25-1031
+46,"Engineering teachers, postsecondary",25-1032
+48,"Agricultural sciences teachers, postsecondary",25-1041
+49,"Biological science teachers, postsecondary",25-1042
+50,"Forestry and conservation science teachers, postsecondary",25-1043
+52,"Atmospheric, earth, marine, and space sciences teachers, postsecondary",25-1051
+53,"Chemistry teachers, postsecondary",25-1052
+54,"Environmental science teachers, postsecondary",25-1053
+55,"Physics teachers, postsecondary",25-1054
+57,"Anthropology and archeology teachers, postsecondary",25-1061
+58,"Area, ethnic, and cultural studies teachers, postsecondary",25-1062
+59,"Economics teachers, postsecondary",25-1063
+60,"Geography teachers, postsecondary",25-1064
+61,"Political science teachers, postsecondary",25-1065
+62,"Psychology teachers, postsecondary",25-1066
+63,"Sociology teachers, postsecondary",25-1067
+64,"Social sciences teachers, postsecondary, all other",25-1069
+66,"Health specialties teachers, postsecondary",25-1071
+67,"Nursing instructors and teachers, postsecondary",25-1072
+69,"Education teachers, postsecondary",25-1081
+70,"Library science teachers, postsecondary",25-1082
+72,"Criminal justice and law enforcement teachers, postsecondary",25-1111
+73,"Law teachers, postsecondary",25-1112
+74,"Social work teachers, postsecondary",25-1113
+76,"Art, drama, and music teachers, postsecondary",25-1121
+77,"Communications teachers, postsecondary",25-1122
+78,"English language and literature teachers, postsecondary",25-1123
+79,"Foreign language and literature teachers, postsecondary",25-1124
+80,"History teachers, postsecondary",25-1125
+81,"Philosophy and religion teachers, postsecondary",25-1126
+83,"Family and consumer sciences teachers, postsecondary",25-1192
+84,"Recreation and fitness studies teachers, postsecondary",25-1193
+85,"Career/technical education teachers, postsecondary",25-1194
+86,"Postsecondary teachers, all other",25-1199
+89,"Preschool teachers, except special education",25-2011
+90,"Kindergarten teachers, except special education",25-2012
+92,"Elementary school teachers, except special education",25-2021
+93,"Middle school teachers, except special and career/technical education",25-2022
+94,"Career/technical education teachers, middle school",25-2023
+96,"Secondary school teachers, except special and career/technical education",25-2031
+97,"Career/technical education teachers, secondary school",25-2032
+99,"Special education teachers, preschool",25-2051
+100,"Special education teachers, kindergarten and elementary school",25-2052
+101,"Special education teachers, middle school",25-2057
+102,"Special education teachers, secondary school",25-2058
+103,"Special education teachers, all other",25-2059
+105,"Adult basic education, adult secondary education, and English as a Second Language instructors",25-3011
+106,Self-enrichment teachers,25-3021
+107,"Substitute teachers, short-term",25-3031
+108,"Tutors and teachers and instructors, all other",25-3097
+111,Archivists,25-4011
+112,Curators,25-4012
+113,Museum technicians and conservators,25-4013
+114,Librarians and media collections specialists,25-4022
+115,Library technicians,25-4031
+117,Farm and home management educators,25-9021
+118,Instructional coordinators,25-9031
+120,"Teaching assistants, postsecondary",25-9044
+121,"Teaching assistants, except postsecondary",25-9045
+122,"Educational instruction and library workers, all other",25-9099
+125,Chiropractors,29-1011
+127,"Dentists, general",29-1021
+128,Oral and maxillofacial surgeons,29-1022
+129,Orthodontists,29-1023
+130,Prosthodontists,29-1024
+131,"Dentists, all other specialists",29-1029
+132,Dietitians and nutritionists,29-1031
+133,Optometrists,29-1041
+134,Pharmacists,29-1051
+135,Physician assistants,29-1071
+136,Podiatrists,29-1081
+138,Occupational therapists,29-1122
+139,Physical therapists,29-1123
+140,Radiation therapists,29-1124
+141,Recreational therapists,29-1125
+142,Respiratory therapists,29-1126
+143,Speech-language pathologists,29-1127
+144,Exercise physiologists,29-1128
+145,"Therapists, all other",29-1129
+146,Veterinarians,29-1131
+147,Registered nurses,29-1141
+148,Nurse anesthetists,29-1151
+149,Nurse midwives,29-1161
+150,Nurse practitioners,29-1171
+151,Audiologists,29-1181
+152,Anesthesiologists,29-1211
+153,Family medicine physicians,29-1215
+154,General internal medicine physicians,29-1216
+155,Obstetricians and gynecologists,29-1218
+156,"Pediatricians, general",29-1221
+157,Psychiatrists,29-1223
+158,"Physicians, all other; and ophthalmologists, except pediatric",29-1228
+159,"Surgeons, except ophthalmologists",29-1248
+161,Dental hygienists,29-1292
+162,"Acupuncturists and healthcare diagnosing or treating practitioners, all other",29-1298
+164,Clinical laboratory technologists and technicians,29-2010
+165,Cardiovascular technologists and technicians,29-2031
+166,Diagnostic medical sonographers,29-2032
+167,Nuclear medicine technologists,29-2033
+168,Radiologic technologists and technicians,29-2034
+169,Magnetic resonance imaging technologists,29-2035
+170,Emergency medical technicians and paramedics,29-2040
+172,Dietetic technicians,29-2051
+173,Pharmacy technicians,29-2052
+174,Psychiatric technicians,29-2053
+175,Surgical technologists,29-2055
+176,Veterinary technologists and technicians,29-2056
+177,Ophthalmic medical technicians,29-2057
+178,Licensed practical and licensed vocational nurses,29-2061
+179,"Opticians, dispensing",29-2081
+180,Orthotists and prosthetists,29-2091
+181,Hearing aid specialists,29-2092
+182,"Medical dosimetrists, medical records specialists, and health technologists and technicians, all other",29-2098
+184,Athletic trainers,29-9091
+185,Genetic counselors,29-9092
+186,"Health information technologists, medical registrars, surgical assistants, and healthcare practitioners and technical workers, all other",29-9098
+189,Home health and personal care aides,31-1120
+191,Nursing assistants,31-1131
+192,Orderlies,31-1132
+193,Psychiatric aides,31-1133
+196,Occupational therapy assistants,31-2011
+197,Occupational therapy aides,31-2012
+199,Physical therapist assistants,31-2021
+200,Physical therapist aides,31-2022
+202,Massage therapists,31-9011
+204,Dental assistants,31-9091
+205,Medical assistants,31-9092
+206,Medical equipment preparers,31-9093
+207,Medical transcriptionists,31-9094
+208,Pharmacy aides,31-9095
+209,Veterinary assistants and laboratory animal caretakers,31-9096
+210,Phlebotomists,31-9097
+211,"Healthcare support workers, all other",31-9099
+214,First-line supervisors of retail sales workers,41-1011
+215,First-line supervisors of non-retail sales workers,41-1012
+218,Cashiers,41-2011
+219,Gambling change persons and booth cashiers,41-2012
+221,Counter and rental clerks,41-2021
+222,Parts salespersons,41-2022
+223,Retail salespersons,41-2031
+225,Advertising sales agents,41-3011
+226,Insurance sales agents,41-3021
+227,"Securities, commodities, and financial services sales agents",41-3031
+228,Travel agents,41-3041
+229,"Sales representatives of services, except advertising, insurance, financial services, and travel",41-3091
+231,"Sales representatives, wholesale and manufacturing, technical and scientific products",41-4011
+232,"Sales representatives, wholesale and manufacturing, except technical and scientific products",41-4012
+235,Demonstrators and product promoters,41-9011
+236,Models,41-9012
+238,Real estate brokers,41-9021
+239,Real estate sales agents,41-9022
+240,Sales engineers,41-9031
+241,Telemarketers,41-9041
+243,"Door-to-door sales workers, news and street vendors, and related workers",41-9091
+244,"Sales and related workers, all other",41-9099

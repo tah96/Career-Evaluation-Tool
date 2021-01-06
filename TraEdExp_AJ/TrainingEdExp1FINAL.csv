@@ -1,0 +1,246 @@
+,Employment Matrix Title,Employment Matrix Code,Typical education needed for entry,Related Work Experience,Typical on-the-job training
+79,Computer and mathematical occupations,15-0000,—,—,—
+80,Computer occupations,15-1200,—,—,—
+81,Computer and information analysts,15-1210,—,—,—
+82,Computer systems analysts,15-1211,Bachelor's degree,None,None
+83,Information security analysts,15-1212,Bachelor's degree,Less than 5 years,None
+84,Computer and information research scientists,15-1221,Master's degree,None,None
+85,Computer support specialists,15-1230,—,—,—
+86,Computer network support specialists,15-1231,Associate's degree,None,None
+87,Computer user support specialists,15-1232,"Some college, no degree",None,None
+88,Database and network administrators and architects,15-1240,—,—,—
+89,Computer network architects,15-1241,Bachelor's degree,5 years or more,None
+90,Network and computer systems administrators,15-1244,Bachelor's degree,None,None
+91,Database administrators and architects,15-1245,Bachelor's degree,None,None
+92,"Software and web developers, programmers, and testers",15-1250,—,—,—
+93,Computer programmers,15-1251,Bachelor's degree,None,None
+94,Software developers and software quality assurance analysts and testers,15-1256,Bachelor's degree,None,None
+95,Web developers and digital interface designers,15-1257,Associate's degree,None,None
+96,"Computer occupations, all other",15-1299,Bachelor's degree,None,None
+97,Mathematical science occupations,15-2000,—,—,—
+98,Actuaries,15-2011,Bachelor's degree,None,Long-term on-the-job training
+99,Mathematicians,15-2021,Master's degree,None,None
+100,Operations research analysts,15-2031,Bachelor's degree,None,None
+101,Statisticians,15-2041,Master's degree,None,None
+102,"Data scientists and mathematical science occupations, all other",15-2098,Bachelor's degree,None,None
+233,Legal occupations,23-0000,—,—,—
+234,"Lawyers, judges, and related workers",23-1000,—,—,—
+235,Lawyers and judicial law clerks,23-1010,—,—,—
+236,Lawyers,23-1011,Doctoral or professional degree,None,None
+237,Judicial law clerks,23-1012,Doctoral or professional degree,None,None
+238,"Judges, magistrates, and other judicial workers",23-1020,—,—,—
+239,"Administrative law judges, adjudicators, and hearing officers",23-1021,Doctoral or professional degree,5 years or more,Short-term on-the-job training
+240,"Arbitrators, mediators, and conciliators",23-1022,Bachelor's degree,Less than 5 years,Moderate-term on-the-job training
+241,"Judges, magistrate judges, and magistrates",23-1023,Doctoral or professional degree,5 years or more,Short-term on-the-job training
+242,Legal support workers,23-2000,—,—,—
+243,Paralegals and legal assistants,23-2011,Associate's degree,None,None
+244,Miscellaneous legal support workers,23-2090,—,—,—
+245,"Title examiners, abstractors, and searchers",23-2093,High school diploma or equivalent,None,Moderate-term on-the-job training
+246,"Legal support workers, all other",23-2099,Associate's degree,None,None
+247,Educational instruction and library occupations,25-0000,—,—,—
+248,Postsecondary teachers,25-1000,—,—,—
+249,"Business teachers, postsecondary",25-1011,Doctoral or professional degree,None,None
+250,"Math and computer science teachers, postsecondary",25-1020,—,—,—
+251,"Computer science teachers, postsecondary",25-1021,Doctoral or professional degree,None,None
+252,"Mathematical science teachers, postsecondary",25-1022,Doctoral or professional degree,None,None
+253,"Engineering and architecture teachers, postsecondary",25-1030,—,—,—
+254,"Architecture teachers, postsecondary",25-1031,Doctoral or professional degree,None,None
+255,"Engineering teachers, postsecondary",25-1032,Doctoral or professional degree,None,None
+256,"Life sciences teachers, postsecondary",25-1040,—,—,—
+257,"Agricultural sciences teachers, postsecondary",25-1041,Doctoral or professional degree,None,None
+258,"Biological science teachers, postsecondary",25-1042,Doctoral or professional degree,None,None
+259,"Forestry and conservation science teachers, postsecondary",25-1043,Doctoral or professional degree,None,None
+260,"Physical sciences teachers, postsecondary",25-1050,—,—,—
+261,"Atmospheric, earth, marine, and space sciences teachers, postsecondary",25-1051,Doctoral or professional degree,None,None
+262,"Chemistry teachers, postsecondary",25-1052,Doctoral or professional degree,None,None
+263,"Environmental science teachers, postsecondary",25-1053,Doctoral or professional degree,None,None
+264,"Physics teachers, postsecondary",25-1054,Doctoral or professional degree,None,None
+265,"Social sciences teachers, postsecondary",25-1060,—,—,—
+266,"Anthropology and archeology teachers, postsecondary",25-1061,Doctoral or professional degree,None,None
+267,"Area, ethnic, and cultural studies teachers, postsecondary",25-1062,Doctoral or professional degree,None,None
+268,"Economics teachers, postsecondary",25-1063,Doctoral or professional degree,None,None
+269,"Geography teachers, postsecondary",25-1064,Doctoral or professional degree,None,None
+270,"Political science teachers, postsecondary",25-1065,Doctoral or professional degree,None,None
+271,"Psychology teachers, postsecondary",25-1066,Doctoral or professional degree,None,None
+272,"Sociology teachers, postsecondary",25-1067,Doctoral or professional degree,None,None
+273,"Social sciences teachers, postsecondary, all other",25-1069,Doctoral or professional degree,None,None
+274,"Health teachers, postsecondary",25-1070,—,—,—
+275,"Health specialties teachers, postsecondary",25-1071,Doctoral or professional degree,Less than 5 years,None
+276,"Nursing instructors and teachers, postsecondary",25-1072,Doctoral or professional degree,Less than 5 years,None
+277,"Education and library science teachers, postsecondary",25-1080,—,—,—
+278,"Education teachers, postsecondary",25-1081,Doctoral or professional degree,Less than 5 years,None
+279,"Library science teachers, postsecondary",25-1082,Doctoral or professional degree,None,None
+280,"Law, criminal justice, and social work teachers, postsecondary",25-1110,—,—,—
+281,"Criminal justice and law enforcement teachers, postsecondary",25-1111,Doctoral or professional degree,None,None
+282,"Law teachers, postsecondary",25-1112,Doctoral or professional degree,Less than 5 years,None
+283,"Social work teachers, postsecondary",25-1113,Doctoral or professional degree,None,None
+284,"Arts, communications, history, and humanities teachers, postsecondary",25-1120,—,—,—
+285,"Art, drama, and music teachers, postsecondary",25-1121,Master's degree,None,None
+286,"Communications teachers, postsecondary",25-1122,Doctoral or professional degree,None,None
+287,"English language and literature teachers, postsecondary",25-1123,Doctoral or professional degree,None,None
+288,"Foreign language and literature teachers, postsecondary",25-1124,Doctoral or professional degree,None,None
+289,"History teachers, postsecondary",25-1125,Doctoral or professional degree,None,None
+290,"Philosophy and religion teachers, postsecondary",25-1126,Doctoral or professional degree,None,None
+291,Miscellaneous postsecondary teachers,25-1190,—,—,—
+292,"Family and consumer sciences teachers, postsecondary",25-1192,Master's degree,None,None
+293,"Recreation and fitness studies teachers, postsecondary",25-1193,Doctoral or professional degree,None,None
+294,"Career/technical education teachers, postsecondary",25-1194,Bachelor's degree,Less than 5 years,None
+295,"Postsecondary teachers, all other",25-1199,Doctoral or professional degree,None,None
+296,"Preschool, elementary, middle, secondary, and special education teachers",25-2000,—,—,—
+297,Preschool and kindergarten teachers,25-2010,—,—,—
+298,"Preschool teachers, except special education",25-2011,Associate's degree,None,None
+299,"Kindergarten teachers, except special education",25-2012,Bachelor's degree,None,None
+300,Elementary and middle school teachers,25-2020,—,—,—
+301,"Elementary school teachers, except special education",25-2021,Bachelor's degree,None,None
+302,"Middle school teachers, except special and career/technical education",25-2022,Bachelor's degree,None,None
+303,"Career/technical education teachers, middle school",25-2023,Bachelor's degree,Less than 5 years,None
+304,Secondary school teachers,25-2030,—,—,—
+305,"Secondary school teachers, except special and career/technical education",25-2031,Bachelor's degree,None,None
+306,"Career/technical education teachers, secondary school",25-2032,Bachelor's degree,Less than 5 years,None
+307,Special education teachers,25-2050,—,—,—
+308,"Special education teachers, preschool",25-2051,Bachelor's degree,None,None
+309,"Special education teachers, kindergarten and elementary school",25-2052,Bachelor's degree,None,None
+310,"Special education teachers, middle school",25-2057,Bachelor's degree,None,None
+311,"Special education teachers, secondary school",25-2058,Bachelor's degree,None,None
+312,"Special education teachers, all other",25-2059,Bachelor's degree,None,None
+313,Other teachers and instructors,25-3000,—,—,—
+314,"Adult basic education, adult secondary education, and English as a Second Language instructors",25-3011,Bachelor's degree,None,None
+315,Self-enrichment teachers,25-3021,High school diploma or equivalent,Less than 5 years,None
+316,"Substitute teachers, short-term",25-3031,Bachelor's degree,None,None
+317,"Tutors and teachers and instructors, all other",25-3097,Bachelor's degree,None,None
+318,"Librarians, curators, and archivists",25-4000,—,—,—
+319,"Archivists, curators, and museum technicians",25-4010,—,—,—
+320,Archivists,25-4011,Master's degree,None,None
+321,Curators,25-4012,Master's degree,None,None
+322,Museum technicians and conservators,25-4013,Bachelor's degree,None,None
+323,Librarians and media collections specialists,25-4022,Bachelor's degree,None,None
+324,Library technicians,25-4031,Postsecondary nondegree award,None,None
+325,Other educational instruction and library occupations,25-9000,—,—,—
+326,Farm and home management educators,25-9021,Master's degree,None,None
+327,Instructional coordinators,25-9031,Master's degree,5 years or more,None
+328,Teaching assistants,25-9040,—,—,—
+329,"Teaching assistants, postsecondary",25-9044,Bachelor's degree,None,None
+330,"Teaching assistants, except postsecondary",25-9045,"Some college, no degree",None,None
+331,"Educational instruction and library workers, all other",25-9099,Bachelor's degree,None,None
+385,Healthcare practitioners and technical occupations,29-0000,—,—,—
+386,Healthcare diagnosing or treating practitioners,29-1000,—,—,—
+387,Chiropractors,29-1011,Doctoral or professional degree,None,None
+388,Dentists,29-1020,—,—,—
+389,"Dentists, general",29-1021,Doctoral or professional degree,None,None
+390,Oral and maxillofacial surgeons,29-1022,Doctoral or professional degree,None,Internship/residency
+391,Orthodontists,29-1023,Doctoral or professional degree,None,Internship/residency
+392,Prosthodontists,29-1024,Doctoral or professional degree,None,Internship/residency
+393,"Dentists, all other specialists",29-1029,Doctoral or professional degree,None,Internship/residency
+394,Dietitians and nutritionists,29-1031,Bachelor's degree,None,Internship/residency
+395,Optometrists,29-1041,Doctoral or professional degree,None,None
+396,Pharmacists,29-1051,Doctoral or professional degree,None,None
+397,Physician assistants,29-1071,Master's degree,None,None
+398,Podiatrists,29-1081,Doctoral or professional degree,None,Internship/residency
+399,Therapists,29-1120,—,—,—
+400,Occupational therapists,29-1122,Master's degree,None,None
+401,Physical therapists,29-1123,Doctoral or professional degree,None,None
+402,Radiation therapists,29-1124,Associate's degree,None,None
+403,Recreational therapists,29-1125,Bachelor's degree,None,None
+404,Respiratory therapists,29-1126,Associate's degree,None,None
+405,Speech-language pathologists,29-1127,Master's degree,None,Internship/residency
+406,Exercise physiologists,29-1128,Bachelor's degree,None,None
+407,"Therapists, all other",29-1129,Bachelor's degree,None,None
+408,Veterinarians,29-1131,Doctoral or professional degree,None,None
+409,Registered nurses,29-1141,Bachelor's degree,None,None
+410,Nurse anesthetists,29-1151,Master's degree,None,None
+411,Nurse midwives,29-1161,Master's degree,None,None
+412,Nurse practitioners,29-1171,Master's degree,None,None
+413,Audiologists,29-1181,Doctoral or professional degree,None,None
+414,Anesthesiologists,29-1211,Doctoral or professional degree,None,Internship/residency
+415,Family medicine physicians,29-1215,Doctoral or professional degree,None,Internship/residency
+416,General internal medicine physicians,29-1216,Doctoral or professional degree,None,Internship/residency
+417,Obstetricians and gynecologists,29-1218,Doctoral or professional degree,None,Internship/residency
+418,"Pediatricians, general",29-1221,Doctoral or professional degree,None,Internship/residency
+419,Psychiatrists,29-1223,Doctoral or professional degree,None,Internship/residency
+420,"Physicians, all other; and ophthalmologists, except pediatric",29-1228,Doctoral or professional degree,None,Internship/residency
+421,"Surgeons, except ophthalmologists",29-1248,Doctoral or professional degree,None,Internship/residency
+422,Miscellaneous healthcare diagnosing or treating practitioners,29-1290,—,—,—
+423,Dental hygienists,29-1292,Associate's degree,None,None
+424,"Acupuncturists and healthcare diagnosing or treating practitioners, all other",29-1298,Master's degree,None,None
+425,Health technologists and technicians,29-2000,—,—,—
+426,Clinical laboratory technologists and technicians,29-2010,Bachelor's degree,None,None
+427,Cardiovascular technologists and technicians,29-2031,Associate's degree,None,None
+428,Diagnostic medical sonographers,29-2032,Associate's degree,None,None
+429,Nuclear medicine technologists,29-2033,Associate's degree,None,None
+430,Radiologic technologists and technicians,29-2034,Associate's degree,None,None
+431,Magnetic resonance imaging technologists,29-2035,Associate's degree,Less than 5 years,None
+432,Emergency medical technicians and paramedics,29-2040,Postsecondary nondegree award,None,None
+433,Health practitioner support technologists and technicians,29-2050,—,—,—
+434,Dietetic technicians,29-2051,Associate's degree,None,None
+435,Pharmacy technicians,29-2052,High school diploma or equivalent,None,Moderate-term on-the-job training
+436,Psychiatric technicians,29-2053,Postsecondary nondegree award,Less than 5 years,Short-term on-the-job training
+437,Surgical technologists,29-2055,Postsecondary nondegree award,None,None
+438,Veterinary technologists and technicians,29-2056,Associate's degree,None,None
+439,Ophthalmic medical technicians,29-2057,Postsecondary nondegree award,None,None
+440,Licensed practical and licensed vocational nurses,29-2061,Postsecondary nondegree award,None,None
+441,"Opticians, dispensing",29-2081,High school diploma or equivalent,None,Long-term on-the-job training
+442,Orthotists and prosthetists,29-2091,Master's degree,None,Internship/residency
+443,Hearing aid specialists,29-2092,High school diploma or equivalent,None,Moderate-term on-the-job training
+444,"Medical dosimetrists, medical records specialists, and health technologists and technicians, all other",29-2098,Postsecondary nondegree award,None,None
+445,Other healthcare practitioners and technical occupations,29-9000,—,—,—
+446,Athletic trainers,29-9091,Bachelor's degree,None,None
+447,Genetic counselors,29-9092,Master's degree,None,None
+448,"Health information technologists, medical registrars, surgical assistants, and healthcare practitioners and technical workers, all other",29-9098,Postsecondary nondegree award,None,None
+449,Healthcare support occupations,31-0000,—,—,—
+450,"Home health and personal care aides; and nursing assistants, orderlies, and psychiatric aides",31-1100,—,—,—
+451,Home health and personal care aides,31-1120,High school diploma or equivalent,None,Short-term on-the-job training
+452,"Nursing assistants, orderlies, and psychiatric aides",31-1130,—,—,—
+453,Nursing assistants,31-1131,Postsecondary nondegree award,None,None
+454,Orderlies,31-1132,High school diploma or equivalent,None,Short-term on-the-job training
+455,Psychiatric aides,31-1133,High school diploma or equivalent,None,Short-term on-the-job training
+456,Occupational therapy and physical therapist assistants and aides,31-2000,—,—,—
+457,Occupational therapy assistants and aides,31-2010,—,—,—
+458,Occupational therapy assistants,31-2011,Associate's degree,None,None
+459,Occupational therapy aides,31-2012,High school diploma or equivalent,None,Short-term on-the-job training
+460,Physical therapist assistants and aides,31-2020,—,—,—
+461,Physical therapist assistants,31-2021,Associate's degree,None,None
+462,Physical therapist aides,31-2022,High school diploma or equivalent,None,Short-term on-the-job training
+463,Other healthcare support occupations,31-9000,—,—,—
+464,Massage therapists,31-9011,Postsecondary nondegree award,None,None
+465,Miscellaneous healthcare support occupations,31-9090,—,—,—
+466,Dental assistants,31-9091,Postsecondary nondegree award,None,None
+467,Medical assistants,31-9092,Postsecondary nondegree award,None,None
+468,Medical equipment preparers,31-9093,High school diploma or equivalent,None,Moderate-term on-the-job training
+469,Medical transcriptionists,31-9094,Postsecondary nondegree award,None,None
+470,Pharmacy aides,31-9095,High school diploma or equivalent,None,Short-term on-the-job training
+471,Veterinary assistants and laboratory animal caretakers,31-9096,High school diploma or equivalent,None,Short-term on-the-job training
+472,Phlebotomists,31-9097,Postsecondary nondegree award,None,None
+473,"Healthcare support workers, all other",31-9099,High school diploma or equivalent,None,None
+587,Sales and related occupations,41-0000,—,—,—
+588,Supervisors of sales workers,41-1000,—,—,—
+589,First-line supervisors of retail sales workers,41-1011,High school diploma or equivalent,Less than 5 years,None
+590,First-line supervisors of non-retail sales workers,41-1012,High school diploma or equivalent,Less than 5 years,None
+591,Retail sales workers,41-2000,—,—,—
+592,Cashiers,41-2010,—,—,—
+593,Cashiers,41-2011,No formal educational credential,None,Short-term on-the-job training
+594,Gambling change persons and booth cashiers,41-2012,No formal educational credential,None,Short-term on-the-job training
+595,Counter and rental clerks and parts salespersons,41-2020,—,—,—
+596,Counter and rental clerks,41-2021,No formal educational credential,None,Short-term on-the-job training
+597,Parts salespersons,41-2022,No formal educational credential,None,Moderate-term on-the-job training
+598,Retail salespersons,41-2031,No formal educational credential,None,Short-term on-the-job training
+599,"Sales representatives, services",41-3000,—,—,—
+600,Advertising sales agents,41-3011,High school diploma or equivalent,None,Moderate-term on-the-job training
+601,Insurance sales agents,41-3021,High school diploma or equivalent,None,Moderate-term on-the-job training
+602,"Securities, commodities, and financial services sales agents",41-3031,Bachelor's degree,None,Moderate-term on-the-job training
+603,Travel agents,41-3041,High school diploma or equivalent,None,Moderate-term on-the-job training
+604,"Sales representatives of services, except advertising, insurance, financial services, and travel",41-3091,High school diploma or equivalent,None,Moderate-term on-the-job training
+605,"Sales representatives, wholesale and manufacturing",41-4000,—,—,—
+606,"Sales representatives, wholesale and manufacturing, technical and scientific products",41-4011,Bachelor's degree,None,Moderate-term on-the-job training
+607,"Sales representatives, wholesale and manufacturing, except technical and scientific products",41-4012,High school diploma or equivalent,None,Moderate-term on-the-job training
+608,Other sales and related workers,41-9000,—,—,—
+609,"Models, demonstrators, and product promoters",41-9010,—,—,—
+610,Demonstrators and product promoters,41-9011,No formal educational credential,None,Short-term on-the-job training
+611,Models,41-9012,No formal educational credential,None,None
+612,Real estate brokers and sales agents,41-9020,—,—,—
+613,Real estate brokers,41-9021,High school diploma or equivalent,Less than 5 years,None
+614,Real estate sales agents,41-9022,High school diploma or equivalent,None,Moderate-term on-the-job training
+615,Sales engineers,41-9031,Bachelor's degree,None,Moderate-term on-the-job training
+616,Telemarketers,41-9041,No formal educational credential,None,Short-term on-the-job training
+617,Miscellaneous sales and related workers,41-9090,—,—,—
+618,"Door-to-door sales workers, news and street vendors, and related workers",41-9091,No formal educational credential,None,Short-term on-the-job training
+619,"Sales and related workers, all other",41-9099,High school diploma or equivalent,None,None
