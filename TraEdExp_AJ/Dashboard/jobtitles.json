@@ -1,0 +1,917 @@
+[
+    {
+        "": 3,
+        "Title": "Computer systems analysts",
+        "Code": "15-1211"
+    },
+    {
+        "": 4,
+        "Title": "Information security analysts",
+        "Code": "15-1212"
+    },
+    {
+        "": 5,
+        "Title": "Computer and information research scientists",
+        "Code": "15-1221"
+    },
+    {
+        "": 7,
+        "Title": "Computer network support specialists",
+        "Code": "15-1231"
+    },
+    {
+        "": 8,
+        "Title": "Computer user support specialists",
+        "Code": "15-1232"
+    },
+    {
+        "": 10,
+        "Title": "Computer network architects",
+        "Code": "15-1241"
+    },
+    {
+        "": 11,
+        "Title": "Network and computer systems administrators",
+        "Code": "15-1244"
+    },
+    {
+        "": 12,
+        "Title": "Database administrators and architects",
+        "Code": "15-1245"
+    },
+    {
+        "": 14,
+        "Title": "Computer programmers",
+        "Code": "15-1251"
+    },
+    {
+        "": 15,
+        "Title": "Software developers and software quality assurance analysts and testers",
+        "Code": "15-1256"
+    },
+    {
+        "": 16,
+        "Title": "Web developers and digital interface designers",
+        "Code": "15-1257"
+    },
+    {
+        "": 17,
+        "Title": "Computer occupations, all other",
+        "Code": "15-1299"
+    },
+    {
+        "": 19,
+        "Title": "Actuaries",
+        "Code": "15-2011"
+    },
+    {
+        "": 20,
+        "Title": "Mathematicians",
+        "Code": "15-2021"
+    },
+    {
+        "": 21,
+        "Title": "Operations research analysts",
+        "Code": "15-2031"
+    },
+    {
+        "": 22,
+        "Title": "Statisticians",
+        "Code": "15-2041"
+    },
+    {
+        "": 23,
+        "Title": "Data scientists and mathematical science occupations, all other",
+        "Code": "15-2098"
+    },
+    {
+        "": 27,
+        "Title": "Lawyers",
+        "Code": "23-1011"
+    },
+    {
+        "": 28,
+        "Title": "Judicial law clerks",
+        "Code": "23-1012"
+    },
+    {
+        "": 30,
+        "Title": "Administrative law judges, adjudicators, and hearing officers",
+        "Code": "23-1021"
+    },
+    {
+        "": 31,
+        "Title": "Arbitrators, mediators, and conciliators",
+        "Code": "23-1022"
+    },
+    {
+        "": 32,
+        "Title": "Judges, magistrate judges, and magistrates",
+        "Code": "23-1023"
+    },
+    {
+        "": 34,
+        "Title": "Paralegals and legal assistants",
+        "Code": "23-2011"
+    },
+    {
+        "": 36,
+        "Title": "Title examiners, abstractors, and searchers",
+        "Code": "23-2093"
+    },
+    {
+        "": 37,
+        "Title": "Legal support workers, all other",
+        "Code": "23-2099"
+    },
+    {
+        "": 40,
+        "Title": "Business teachers, postsecondary",
+        "Code": "25-1011"
+    },
+    {
+        "": 42,
+        "Title": "Computer science teachers, postsecondary",
+        "Code": "25-1021"
+    },
+    {
+        "": 43,
+        "Title": "Mathematical science teachers, postsecondary",
+        "Code": "25-1022"
+    },
+    {
+        "": 45,
+        "Title": "Architecture teachers, postsecondary",
+        "Code": "25-1031"
+    },
+    {
+        "": 46,
+        "Title": "Engineering teachers, postsecondary",
+        "Code": "25-1032"
+    },
+    {
+        "": 48,
+        "Title": "Agricultural sciences teachers, postsecondary",
+        "Code": "25-1041"
+    },
+    {
+        "": 49,
+        "Title": "Biological science teachers, postsecondary",
+        "Code": "25-1042"
+    },
+    {
+        "": 50,
+        "Title": "Forestry and conservation science teachers, postsecondary",
+        "Code": "25-1043"
+    },
+    {
+        "": 52,
+        "Title": "Atmospheric, earth, marine, and space sciences teachers, postsecondary",
+        "Code": "25-1051"
+    },
+    {
+        "": 53,
+        "Title": "Chemistry teachers, postsecondary",
+        "Code": "25-1052"
+    },
+    {
+        "": 54,
+        "Title": "Environmental science teachers, postsecondary",
+        "Code": "25-1053"
+    },
+    {
+        "": 55,
+        "Title": "Physics teachers, postsecondary",
+        "Code": "25-1054"
+    },
+    {
+        "": 57,
+        "Title": "Anthropology and archeology teachers, postsecondary",
+        "Code": "25-1061"
+    },
+    {
+        "": 58,
+        "Title": "Area, ethnic, and cultural studies teachers, postsecondary",
+        "Code": "25-1062"
+    },
+    {
+        "": 59,
+        "Title": "Economics teachers, postsecondary",
+        "Code": "25-1063"
+    },
+    {
+        "": 60,
+        "Title": "Geography teachers, postsecondary",
+        "Code": "25-1064"
+    },
+    {
+        "": 61,
+        "Title": "Political science teachers, postsecondary",
+        "Code": "25-1065"
+    },
+    {
+        "": 62,
+        "Title": "Psychology teachers, postsecondary",
+        "Code": "25-1066"
+    },
+    {
+        "": 63,
+        "Title": "Sociology teachers, postsecondary",
+        "Code": "25-1067"
+    },
+    {
+        "": 64,
+        "Title": "Social sciences teachers, postsecondary, all other",
+        "Code": "25-1069"
+    },
+    {
+        "": 66,
+        "Title": "Health specialties teachers, postsecondary",
+        "Code": "25-1071"
+    },
+    {
+        "": 67,
+        "Title": "Nursing instructors and teachers, postsecondary",
+        "Code": "25-1072"
+    },
+    {
+        "": 69,
+        "Title": "Education teachers, postsecondary",
+        "Code": "25-1081"
+    },
+    {
+        "": 70,
+        "Title": "Library science teachers, postsecondary",
+        "Code": "25-1082"
+    },
+    {
+        "": 72,
+        "Title": "Criminal justice and law enforcement teachers, postsecondary",
+        "Code": "25-1111"
+    },
+    {
+        "": 73,
+        "Title": "Law teachers, postsecondary",
+        "Code": "25-1112"
+    },
+    {
+        "": 74,
+        "Title": "Social work teachers, postsecondary",
+        "Code": "25-1113"
+    },
+    {
+        "": 76,
+        "Title": "Art, drama, and music teachers, postsecondary",
+        "Code": "25-1121"
+    },
+    {
+        "": 77,
+        "Title": "Communications teachers, postsecondary",
+        "Code": "25-1122"
+    },
+    {
+        "": 78,
+        "Title": "English language and literature teachers, postsecondary",
+        "Code": "25-1123"
+    },
+    {
+        "": 79,
+        "Title": "Foreign language and literature teachers, postsecondary",
+        "Code": "25-1124"
+    },
+    {
+        "": 80,
+        "Title": "History teachers, postsecondary",
+        "Code": "25-1125"
+    },
+    {
+        "": 81,
+        "Title": "Philosophy and religion teachers, postsecondary",
+        "Code": "25-1126"
+    },
+    {
+        "": 83,
+        "Title": "Family and consumer sciences teachers, postsecondary",
+        "Code": "25-1192"
+    },
+    {
+        "": 84,
+        "Title": "Recreation and fitness studies teachers, postsecondary",
+        "Code": "25-1193"
+    },
+    {
+        "": 85,
+        "Title": "Career/technical education teachers, postsecondary",
+        "Code": "25-1194"
+    },
+    {
+        "": 86,
+        "Title": "Postsecondary teachers, all other",
+        "Code": "25-1199"
+    },
+    {
+        "": 89,
+        "Title": "Preschool teachers, except special education",
+        "Code": "25-2011"
+    },
+    {
+        "": 90,
+        "Title": "Kindergarten teachers, except special education",
+        "Code": "25-2012"
+    },
+    {
+        "": 92,
+        "Title": "Elementary school teachers, except special education",
+        "Code": "25-2021"
+    },
+    {
+        "": 93,
+        "Title": "Middle school teachers, except special and career/technical education",
+        "Code": "25-2022"
+    },
+    {
+        "": 94,
+        "Title": "Career/technical education teachers, middle school",
+        "Code": "25-2023"
+    },
+    {
+        "": 96,
+        "Title": "Secondary school teachers, except special and career/technical education",
+        "Code": "25-2031"
+    },
+    {
+        "": 97,
+        "Title": "Career/technical education teachers, secondary school",
+        "Code": "25-2032"
+    },
+    {
+        "": 99,
+        "Title": "Special education teachers, preschool",
+        "Code": "25-2051"
+    },
+    {
+        "": 100,
+        "Title": "Special education teachers, kindergarten and elementary school",
+        "Code": "25-2052"
+    },
+    {
+        "": 101,
+        "Title": "Special education teachers, middle school",
+        "Code": "25-2057"
+    },
+    {
+        "": 102,
+        "Title": "Special education teachers, secondary school",
+        "Code": "25-2058"
+    },
+    {
+        "": 103,
+        "Title": "Special education teachers, all other",
+        "Code": "25-2059"
+    },
+    {
+        "": 105,
+        "Title": "Adult basic education, adult secondary education, and English as a Second Language instructors",
+        "Code": "25-3011"
+    },
+    {
+        "": 106,
+        "Title": "Self-enrichment teachers",
+        "Code": "25-3021"
+    },
+    {
+        "": 107,
+        "Title": "Substitute teachers, short-term",
+        "Code": "25-3031"
+    },
+    {
+        "": 108,
+        "Title": "Tutors and teachers and instructors, all other",
+        "Code": "25-3097"
+    },
+    {
+        "": 111,
+        "Title": "Archivists",
+        "Code": "25-4011"
+    },
+    {
+        "": 112,
+        "Title": "Curators",
+        "Code": "25-4012"
+    },
+    {
+        "": 113,
+        "Title": "Museum technicians and conservators",
+        "Code": "25-4013"
+    },
+    {
+        "": 114,
+        "Title": "Librarians and media collections specialists",
+        "Code": "25-4022"
+    },
+    {
+        "": 115,
+        "Title": "Library technicians",
+        "Code": "25-4031"
+    },
+    {
+        "": 117,
+        "Title": "Farm and home management educators",
+        "Code": "25-9021"
+    },
+    {
+        "": 118,
+        "Title": "Instructional coordinators",
+        "Code": "25-9031"
+    },
+    {
+        "": 120,
+        "Title": "Teaching assistants, postsecondary",
+        "Code": "25-9044"
+    },
+    {
+        "": 121,
+        "Title": "Teaching assistants, except postsecondary",
+        "Code": "25-9045"
+    },
+    {
+        "": 122,
+        "Title": "Educational instruction and library workers, all other",
+        "Code": "25-9099"
+    },
+    {
+        "": 125,
+        "Title": "Chiropractors",
+        "Code": "29-1011"
+    },
+    {
+        "": 127,
+        "Title": "Dentists, general",
+        "Code": "29-1021"
+    },
+    {
+        "": 128,
+        "Title": "Oral and maxillofacial surgeons",
+        "Code": "29-1022"
+    },
+    {
+        "": 129,
+        "Title": "Orthodontists",
+        "Code": "29-1023"
+    },
+    {
+        "": 130,
+        "Title": "Prosthodontists",
+        "Code": "29-1024"
+    },
+    {
+        "": 131,
+        "Title": "Dentists, all other specialists",
+        "Code": "29-1029"
+    },
+    {
+        "": 132,
+        "Title": "Dietitians and nutritionists",
+        "Code": "29-1031"
+    },
+    {
+        "": 133,
+        "Title": "Optometrists",
+        "Code": "29-1041"
+    },
+    {
+        "": 134,
+        "Title": "Pharmacists",
+        "Code": "29-1051"
+    },
+    {
+        "": 135,
+        "Title": "Physician assistants",
+        "Code": "29-1071"
+    },
+    {
+        "": 136,
+        "Title": "Podiatrists",
+        "Code": "29-1081"
+    },
+    {
+        "": 138,
+        "Title": "Occupational therapists",
+        "Code": "29-1122"
+    },
+    {
+        "": 139,
+        "Title": "Physical therapists",
+        "Code": "29-1123"
+    },
+    {
+        "": 140,
+        "Title": "Radiation therapists",
+        "Code": "29-1124"
+    },
+    {
+        "": 141,
+        "Title": "Recreational therapists",
+        "Code": "29-1125"
+    },
+    {
+        "": 142,
+        "Title": "Respiratory therapists",
+        "Code": "29-1126"
+    },
+    {
+        "": 143,
+        "Title": "Speech-language pathologists",
+        "Code": "29-1127"
+    },
+    {
+        "": 144,
+        "Title": "Exercise physiologists",
+        "Code": "29-1128"
+    },
+    {
+        "": 145,
+        "Title": "Therapists, all other",
+        "Code": "29-1129"
+    },
+    {
+        "": 146,
+        "Title": "Veterinarians",
+        "Code": "29-1131"
+    },
+    {
+        "": 147,
+        "Title": "Registered nurses",
+        "Code": "29-1141"
+    },
+    {
+        "": 148,
+        "Title": "Nurse anesthetists",
+        "Code": "29-1151"
+    },
+    {
+        "": 149,
+        "Title": "Nurse midwives",
+        "Code": "29-1161"
+    },
+    {
+        "": 150,
+        "Title": "Nurse practitioners",
+        "Code": "29-1171"
+    },
+    {
+        "": 151,
+        "Title": "Audiologists",
+        "Code": "29-1181"
+    },
+    {
+        "": 152,
+        "Title": "Anesthesiologists",
+        "Code": "29-1211"
+    },
+    {
+        "": 153,
+        "Title": "Family medicine physicians",
+        "Code": "29-1215"
+    },
+    {
+        "": 154,
+        "Title": "General internal medicine physicians",
+        "Code": "29-1216"
+    },
+    {
+        "": 155,
+        "Title": "Obstetricians and gynecologists",
+        "Code": "29-1218"
+    },
+    {
+        "": 156,
+        "Title": "Pediatricians, general",
+        "Code": "29-1221"
+    },
+    {
+        "": 157,
+        "Title": "Psychiatrists",
+        "Code": "29-1223"
+    },
+    {
+        "": 158,
+        "Title": "Physicians, all other; and ophthalmologists, except pediatric",
+        "Code": "29-1228"
+    },
+    {
+        "": 159,
+        "Title": "Surgeons, except ophthalmologists",
+        "Code": "29-1248"
+    },
+    {
+        "": 161,
+        "Title": "Dental hygienists",
+        "Code": "29-1292"
+    },
+    {
+        "": 162,
+        "Title": "Acupuncturists and healthcare diagnosing or treating practitioners, all other",
+        "Code": "29-1298"
+    },
+    {
+        "": 164,
+        "Title": "Clinical laboratory technologists and technicians",
+        "Code": "29-2010"
+    },
+    {
+        "": 165,
+        "Title": "Cardiovascular technologists and technicians",
+        "Code": "29-2031"
+    },
+    {
+        "": 166,
+        "Title": "Diagnostic medical sonographers",
+        "Code": "29-2032"
+    },
+    {
+        "": 167,
+        "Title": "Nuclear medicine technologists",
+        "Code": "29-2033"
+    },
+    {
+        "": 168,
+        "Title": "Radiologic technologists and technicians",
+        "Code": "29-2034"
+    },
+    {
+        "": 169,
+        "Title": "Magnetic resonance imaging technologists",
+        "Code": "29-2035"
+    },
+    {
+        "": 170,
+        "Title": "Emergency medical technicians and paramedics",
+        "Code": "29-2040"
+    },
+    {
+        "": 172,
+        "Title": "Dietetic technicians",
+        "Code": "29-2051"
+    },
+    {
+        "": 173,
+        "Title": "Pharmacy technicians",
+        "Code": "29-2052"
+    },
+    {
+        "": 174,
+        "Title": "Psychiatric technicians",
+        "Code": "29-2053"
+    },
+    {
+        "": 175,
+        "Title": "Surgical technologists",
+        "Code": "29-2055"
+    },
+    {
+        "": 176,
+        "Title": "Veterinary technologists and technicians",
+        "Code": "29-2056"
+    },
+    {
+        "": 177,
+        "Title": "Ophthalmic medical technicians",
+        "Code": "29-2057"
+    },
+    {
+        "": 178,
+        "Title": "Licensed practical and licensed vocational nurses",
+        "Code": "29-2061"
+    },
+    {
+        "": 179,
+        "Title": "Opticians, dispensing",
+        "Code": "29-2081"
+    },
+    {
+        "": 180,
+        "Title": "Orthotists and prosthetists",
+        "Code": "29-2091"
+    },
+    {
+        "": 181,
+        "Title": "Hearing aid specialists",
+        "Code": "29-2092"
+    },
+    {
+        "": 182,
+        "Title": "Medical dosimetrists, medical records specialists, and health technologists and technicians, all other",
+        "Code": "29-2098"
+    },
+    {
+        "": 184,
+        "Title": "Athletic trainers",
+        "Code": "29-9091"
+    },
+    {
+        "": 185,
+        "Title": "Genetic counselors",
+        "Code": "29-9092"
+    },
+    {
+        "": 186,
+        "Title": "Health information technologists, medical registrars, surgical assistants, and healthcare practitioners and technical workers, all other",
+        "Code": "29-9098"
+    },
+    {
+        "": 189,
+        "Title": "Home health and personal care aides",
+        "Code": "31-1120"
+    },
+    {
+        "": 191,
+        "Title": "Nursing assistants",
+        "Code": "31-1131"
+    },
+    {
+        "": 192,
+        "Title": "Orderlies",
+        "Code": "31-1132"
+    },
+    {
+        "": 193,
+        "Title": "Psychiatric aides",
+        "Code": "31-1133"
+    },
+    {
+        "": 196,
+        "Title": "Occupational therapy assistants",
+        "Code": "31-2011"
+    },
+    {
+        "": 197,
+        "Title": "Occupational therapy aides",
+        "Code": "31-2012"
+    },
+    {
+        "": 199,
+        "Title": "Physical therapist assistants",
+        "Code": "31-2021"
+    },
+    {
+        "": 200,
+        "Title": "Physical therapist aides",
+        "Code": "31-2022"
+    },
+    {
+        "": 202,
+        "Title": "Massage therapists",
+        "Code": "31-9011"
+    },
+    {
+        "": 204,
+        "Title": "Dental assistants",
+        "Code": "31-9091"
+    },
+    {
+        "": 205,
+        "Title": "Medical assistants",
+        "Code": "31-9092"
+    },
+    {
+        "": 206,
+        "Title": "Medical equipment preparers",
+        "Code": "31-9093"
+    },
+    {
+        "": 207,
+        "Title": "Medical transcriptionists",
+        "Code": "31-9094"
+    },
+    {
+        "": 208,
+        "Title": "Pharmacy aides",
+        "Code": "31-9095"
+    },
+    {
+        "": 209,
+        "Title": "Veterinary assistants and laboratory animal caretakers",
+        "Code": "31-9096"
+    },
+    {
+        "": 210,
+        "Title": "Phlebotomists",
+        "Code": "31-9097"
+    },
+    {
+        "": 211,
+        "Title": "Healthcare support workers, all other",
+        "Code": "31-9099"
+    },
+    {
+        "": 214,
+        "Title": "First-line supervisors of retail sales workers",
+        "Code": "41-1011"
+    },
+    {
+        "": 215,
+        "Title": "First-line supervisors of non-retail sales workers",
+        "Code": "41-1012"
+    },
+    {
+        "": 218,
+        "Title": "Cashiers",
+        "Code": "41-2011"
+    },
+    {
+        "": 219,
+        "Title": "Gambling change persons and booth cashiers",
+        "Code": "41-2012"
+    },
+    {
+        "": 221,
+        "Title": "Counter and rental clerks",
+        "Code": "41-2021"
+    },
+    {
+        "": 222,
+        "Title": "Parts salespersons",
+        "Code": "41-2022"
+    },
+    {
+        "": 223,
+        "Title": "Retail salespersons",
+        "Code": "41-2031"
+    },
+    {
+        "": 225,
+        "Title": "Advertising sales agents",
+        "Code": "41-3011"
+    },
+    {
+        "": 226,
+        "Title": "Insurance sales agents",
+        "Code": "41-3021"
+    },
+    {
+        "": 227,
+        "Title": "Securities, commodities, and financial services sales agents",
+        "Code": "41-3031"
+    },
+    {
+        "": 228,
+        "Title": "Travel agents",
+        "Code": "41-3041"
+    },
+    {
+        "": 229,
+        "Title": "Sales representatives of services, except advertising, insurance, financial services, and travel",
+        "Code": "41-3091"
+    },
+    {
+        "": 231,
+        "Title": "Sales representatives, wholesale and manufacturing, technical and scientific products",
+        "Code": "41-4011"
+    },
+    {
+        "": 232,
+        "Title": "Sales representatives, wholesale and manufacturing, except technical and scientific products",
+        "Code": "41-4012"
+    },
+    {
+        "": 235,
+        "Title": "Demonstrators and product promoters",
+        "Code": "41-9011"
+    },
+    {
+        "": 236,
+        "Title": "Models",
+        "Code": "41-9012"
+    },
+    {
+        "": 238,
+        "Title": "Real estate brokers",
+        "Code": "41-9021"
+    },
+    {
+        "": 239,
+        "Title": "Real estate sales agents",
+        "Code": "41-9022"
+    },
+    {
+        "": 240,
+        "Title": "Sales engineers",
+        "Code": "41-9031"
+    },
+    {
+        "": 241,
+        "Title": "Telemarketers",
+        "Code": "41-9041"
+    },
+    {
+        "": 243,
+        "Title": "Door-to-door sales workers, news and street vendors, and related workers",
+        "Code": "41-9091"
+    },
+    {
+        "": 244,
+        "Title": "Sales and related workers, all other",
+        "Code": "41-9099"
+    }
+]
