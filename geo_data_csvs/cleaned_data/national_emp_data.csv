@@ -1,4 +1,4 @@
-,Area Code,Occupation Code,Occupation Title,Total Employment,Mean Hourly Income,Hourly 10th Percentile,Hourly 25th Percentile,Median Hourly Income,Hourly 75th Percentile,Hourly 90th Percentile,Mean Annual Income,Annual 10th Percentile,Annual 25th Percentile,Median Annual Income,Annual 75th Percentile,Annual 90th Percentile
+,Area_Code,Occupation_Code,Occupation_Title,Total_Employment,Mean_Hourly_Income,Hourly_10th_Percentile,Hourly_25th_Percentile,Median_Hourly_Income,Hourly_75th_Percentile,Hourly_90th_Percentile,Mean_Annual_Income,Annual_10th_Percentile,Annual_25th_Percentile,Median_Annual_Income,Annual_75th_Percentile,Annual_90th_Percentile
 121,99,15-1211,Computer Systems Analysts,"589,060",46.23,26.53,33.65,43.71,56.31,71.00,"96,160","55,180","70,000","90,920","117,120","147,670"
 122,99,15-1212,Information Security Analysts,"125,570",50.10,27.79,36.27,47.95,61.85,76.37,"104,210","57,810","75,450","99,730","128,640","158,860"
 124,99,15-1221,Computer and Information Research Scientists,"30,780",61.28,33.65,44.85,59.06,74.05,91.24,"127,460","69,990","93,290","122,840","154,020","189,780"
