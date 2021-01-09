@@ -1,51 +1,51 @@
-Area_Code,Area_Name
-1,Alabama -- Statewide
-2,Alaska -- Statewide
-4,Arizona -- Statewide
-5,Arkansas -- Statewide
-6,California -- Statewide
-8,Colorado -- Statewide
-9,Connecticut -- Statewide
-10,Delaware -- Statewide
-12,Florida -- Statewide
-13,Georgia -- Statewide
-15,Hawaii -- Statewide
-16,Idaho -- Statewide
-17,Illinois -- Statewide
-18,Indiana -- Statewide
-19,Iowa -- Statewide
-20,Kansas -- Statewide
-21,Kentucky -- Statewide
-22,Louisiana -- Statewide
-23,Maine -- Statewide
-24,Maryland -- Statewide
-25,Massachusetts -- Statewide
-26,Michigan -- Statewide
-27,Minnesota -- Statewide
-28,Mississippi -- Statewide
-29,Missouri -- Statewide
-30,Montana -- Statewide
-31,Nebraska -- Statewide
-32,Nevada -- Statewide
-33,New Hampshire -- Statewide
-34,New Jersey -- Statewide
-35,New Mexico -- Statewide
-36,New York -- Statewide
-37,North Carolina -- Statewide
-38,North Dakota -- Statewide
-39,Ohio -- Statewide
-40,Oklahoma -- Statewide
-41,Oregon -- Statewide
-42,Pennsylvania -- Statewide
-44,Rhode Island -- Statewide
-45,South Carolina -- Statewide
-46,South Dakota -- Statewide
-47,Tennessee -- Statewide
-48,Texas -- Statewide
-49,Utah -- Statewide
-50,Vermont -- Statewide
-51,Virginia -- Statewide
-53,Washington -- Statewide
-54,West Virginia -- Statewide
-55,Wisconsin -- Statewide
-56,Wyoming -- Statewide
+Area_Code,State
+1,Alabama 
+2,Alaska 
+4,Arizona 
+5,Arkansas 
+6,California 
+8,Colorado 
+9,Connecticut 
+10,Delaware 
+12,Florida 
+13,Georgia 
+15,Hawaii 
+16,Idaho 
+17,Illinois 
+18,Indiana 
+19,Iowa 
+20,Kansas 
+21,Kentucky 
+22,Louisiana 
+23,Maine 
+24,Maryland 
+25,Massachusetts 
+26,Michigan 
+27,Minnesota 
+28,Mississippi 
+29,Missouri 
+30,Montana 
+31,Nebraska 
+32,Nevada 
+33,New Hampshire 
+34,New Jersey 
+35,New Mexico 
+36,New York 
+37,North Carolina 
+38,North Dakota 
+39,Ohio 
+40,Oklahoma 
+41,Oregon 
+42,Pennsylvania 
+44,Rhode Island 
+45,South Carolina 
+46,South Dakota 
+47,Tennessee 
+48,Texas 
+49,Utah 
+50,Vermont 
+51,Virginia 
+53,Washington 
+54,West Virginia 
+55,Wisconsin 
+56,Wyoming 
