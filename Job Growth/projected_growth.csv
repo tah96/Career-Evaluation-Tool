@@ -1,0 +1,184 @@
+,Employment Matrix title,Employment Matrix code,Occupation Type,2019 Employment,2029 Employment,"Number of Employment changes, 2019-29","Percent Employment change, 2019-29","Percent self employed, 2019","Occupational openings, 2019-29 annual average"
+83,Computer systems analysts,15-1211,Line item,632.4,679.0,46.6,7.4,3.0,46.2
+84,Information security analysts,15-1212,Line item,131.0,171.9,40.9,31.2,0.8,13.9
+85,Computer and information research scientists,15-1221,Line item,32.7,37.7,5.0,15.4,—,3
+87,Computer network support specialists,15-1231,Line item,195.1,207.7,12.6,6.4,2.0,14.8
+88,Computer user support specialists,15-1232,Line item,687.2,741.9,54.8,8.0,1.9,53.6
+90,Computer network architects,15-1241,Line item,160.1,168.1,8.0,5.0,2.0,10
+91,Network and computer systems administrators,15-1244,Line item,373.9,389.9,16.0,4.3,1.0,23.8
+92,Database administrators and architects,15-1245,Line item,132.5,145.3,12.8,9.7,0.2,9.9
+94,Computer programmers,15-1251,Line item,213.9,193.8,-20.1,-9.4,2.8,10.4
+95,Software developers and software quality assurance analysts and testers,15-1256,Line item,"1,469.2","1,785.2",316.0,21.5,1.2,131.4
+96,Web developers and digital interface designers,15-1257,Line item,174.3,188.3,14.0,8.0,9.8,13.4
+97,"Computer occupations, all other",15-1299,Line item,431.1,455.8,24.7,5.7,3.9,32.3
+99,Actuaries,15-2011,Line item,27.7,32.6,4.9,17.6,4.2,2
+100,Mathematicians,15-2021,Line item,2.9,3.0,0.1,3.0,—,0.2
+101,Operations research analysts,15-2031,Line item,105.1,131.3,26.1,24.8,0.2,9.6
+102,Statisticians,15-2041,Line item,42.7,57.5,14.8,34.6,2.5,4.9
+103,"Data scientists and mathematical science occupations, all other",15-2098,Line item,33.2,43.4,10.3,30.9,3.0,3.6
+237,Lawyers,23-1011,Line item,813.9,846.3,32.3,4.0,17.3,39.9
+238,Judicial law clerks,23-1012,Line item,17.3,17.9,0.6,3.4,—,0.8
+240,"Administrative law judges, adjudicators, and hearing officers",23-1021,Line item,15.4,15.4,0.0,0.3,—,0.7
+241,"Arbitrators, mediators, and conciliators",23-1022,Line item,7.3,7.9,0.6,7.7,11.9,0.4
+242,"Judges, magistrate judges, and magistrates",23-1023,Line item,29.9,30.9,1.0,3.4,—,1.4
+244,Paralegals and legal assistants,23-2011,Line item,337.8,373.1,35.3,10.5,0.8,37.6
+246,"Title examiners, abstractors, and searchers",23-2093,Line item,63.6,61.9,-1.6,-2.6,11.7,4.8
+247,"Legal support workers, all other",23-2099,Line item,50.4,49.8,-0.6,-1.2,5.3,3.9
+250,"Business teachers, postsecondary",25-1011,Line item,105.1,117.7,12.7,12.0,0.2,9.5
+252,"Computer science teachers, postsecondary",25-1021,Line item,38.5,39.5,1.0,2.6,—,3
+253,"Mathematical science teachers, postsecondary",25-1022,Line item,60.1,60.8,0.8,1.3,0.1,4.6
+255,"Architecture teachers, postsecondary",25-1031,Line item,8.5,9.0,0.4,5.1,—,0.7
+256,"Engineering teachers, postsecondary",25-1032,Line item,44.6,48.4,3.8,8.6,—,3.8
+258,"Agricultural sciences teachers, postsecondary",25-1041,Line item,11.4,11.7,0.2,2.1,—,0.9
+259,"Biological science teachers, postsecondary",25-1042,Line item,64.7,70.7,6.0,9.3,0.2,5.6
+260,"Forestry and conservation science teachers, postsecondary",25-1043,Line item,2.1,2.2,0.0,2.2,—,0.2
+262,"Atmospheric, earth, marine, and space sciences teachers, postsecondary",25-1051,Line item,13.1,13.4,0.2,1.9,—,1
+263,"Chemistry teachers, postsecondary",25-1052,Line item,26.4,27.5,1.1,4.3,—,2.1
+264,"Environmental science teachers, postsecondary",25-1053,Line item,7.6,7.8,0.3,3.7,—,0.6
+265,"Physics teachers, postsecondary",25-1054,Line item,17.1,17.8,0.8,4.4,—,1.4
+267,"Anthropology and archeology teachers, postsecondary",25-1061,Line item,7.2,7.5,0.3,4.4,—,0.6
+268,"Area, ethnic, and cultural studies teachers, postsecondary",25-1062,Line item,13.4,14.0,0.7,4.9,—,1.1
+269,"Economics teachers, postsecondary",25-1063,Line item,16.8,17.6,0.9,5.2,—,1.4
+270,"Geography teachers, postsecondary",25-1064,Line item,4.8,5.0,0.1,2.9,—,0.4
+271,"Political science teachers, postsecondary",25-1065,Line item,19.8,20.8,1.0,4.9,—,1.6
+272,"Psychology teachers, postsecondary",25-1066,Line item,46.8,51.0,4.1,8.8,0.2,4
+273,"Sociology teachers, postsecondary",25-1067,Line item,17.0,17.6,0.6,3.8,—,1.3
+274,"Social sciences teachers, postsecondary, all other",25-1069,Line item,19.3,19.2,-0.1,-0.3,—,1.4
+276,"Health specialties teachers, postsecondary",25-1071,Line item,254.0,306.1,52.1,20.5,0.2,26
+277,"Nursing instructors and teachers, postsecondary",25-1072,Line item,72.9,85.7,12.8,17.6,0.2,7.2
+279,"Education teachers, postsecondary",25-1081,Line item,77.3,81.0,3.7,4.8,0.2,6.2
+280,"Library science teachers, postsecondary",25-1082,Line item,5.4,5.5,0.2,3.0,—,0.4
+282,"Criminal justice and law enforcement teachers, postsecondary",25-1111,Line item,16.8,17.9,1.1,6.7,—,1.4
+283,"Law teachers, postsecondary",25-1112,Line item,21.3,22.8,1.5,6.9,0.3,1.8
+284,"Social work teachers, postsecondary",25-1113,Line item,17.3,18.3,1.0,5.7,—,1.4
+286,"Art, drama, and music teachers, postsecondary",25-1121,Line item,116.3,122.8,6.5,5.6,0.2,9.5
+287,"Communications teachers, postsecondary",25-1122,Line item,35.6,36.7,1.1,3.2,—,2.8
+288,"English language and literature teachers, postsecondary",25-1123,Line item,81.3,82.9,1.7,2.1,0.1,6.3
+289,"Foreign language and literature teachers, postsecondary",25-1124,Line item,30.6,32.3,1.7,5.7,0.2,2.5
+290,"History teachers, postsecondary",25-1125,Line item,26.0,27.0,0.9,3.6,—,2.1
+291,"Philosophy and religion teachers, postsecondary",25-1126,Line item,30.9,32.9,2.1,6.7,0.3,2.6
+293,"Family and consumer sciences teachers, postsecondary",25-1192,Line item,2.5,2.6,0.0,1.3,—,0.2
+294,"Recreation and fitness studies teachers, postsecondary",25-1193,Line item,19.1,19.6,0.5,2.6,—,1.5
+295,"Career/technical education teachers, postsecondary",25-1194,Line item,124.1,125.5,1.3,1.1,0.2,9.4
+296,"Postsecondary teachers, all other",25-1199,Line item,245.9,250.7,4.8,2.0,0.1,18.9
+299,"Preschool teachers, except special education",25-2011,Line item,540.4,553.9,13.5,2.5,0.9,50.6
+300,"Kindergarten teachers, except special education",25-2012,Line item,127.7,132.4,4.7,3.7,0.2,12.2
+302,"Elementary school teachers, except special education",25-2021,Line item,"1,452.1","1,503.5",51.4,3.5,—,103.2
+303,"Middle school teachers, except special and career/technical education",25-2022,Line item,627.1,649.6,22.5,3.6,—,44.6
+304,"Career/technical education teachers, middle school",25-2023,Line item,11.8,12.1,0.4,3.1,—,0.8
+306,"Secondary school teachers, except special and career/technical education",25-2031,Line item,"1,050.8","1,090.9",40.2,3.8,—,71.1
+307,"Career/technical education teachers, secondary school",25-2032,Line item,73.8,75.5,1.7,2.3,—,4.8
+309,"Special education teachers, preschool",25-2051,Line item,23.0,24.9,1.9,8.3,0.4,1.8
+310,"Special education teachers, kindergarten and elementary school",25-2052,Line item,193.0,198.6,5.6,2.9,0.1,13.9
+311,"Special education teachers, middle school",25-2057,Line item,84.7,86.9,2.2,2.6,—,6.1
+312,"Special education teachers, secondary school",25-2058,Line item,143.0,147.6,4.6,3.2,0.1,10.3
+313,"Special education teachers, all other",25-2059,Line item,36.6,39.7,3.1,8.5,0.3,2.9
+315,"Adult basic education, adult secondary education, and English as a Second Language instructors",25-3011,Line item,59.3,53.1,-6.2,-10.4,7.5,5.3
+316,Self-enrichment teachers,25-3021,Line item,386.2,425.9,39.8,10.3,21.4,46.5
+317,"Substitute teachers, short-term",25-3031,Line item,619.4,635.3,15.9,2.6,5.3,67.3
+318,"Tutors and teachers and instructors, all other",25-3097,Line item,406.2,436.4,30.2,7.4,14.8,47.2
+321,Archivists,25-4011,Line item,8.1,8.8,0.6,7.9,4.7,0.9
+322,Curators,25-4012,Line item,14.5,16.4,1.8,12.6,5.7,1.8
+323,Museum technicians and conservators,25-4013,Line item,14.8,16.5,1.7,11.6,5.1,1.8
+324,Librarians and media collections specialists,25-4022,Line item,146.5,153.8,7.3,5.0,1.2,13.8
+325,Library technicians,25-4031,Line item,94.1,90.5,-3.6,-3.9,—,12.7
+327,Farm and home management educators,25-9021,Line item,10.4,10.0,-0.4,-3.9,0.7,0.8
+328,Instructional coordinators,25-9031,Line item,192.9,204.3,11.4,5.9,2.0,17.7
+330,"Teaching assistants, postsecondary",25-9044,Line item,169.6,175.4,5.8,3.4,0.1,13.4
+331,"Teaching assistants, except postsecondary",25-9045,Line item,"1,395.9","1,446.4",50.5,3.6,0.2,140.4
+332,"Educational instruction and library workers, all other",25-9099,Line item,141.4,147.7,6.2,4.4,1.2,12.7
+388,Chiropractors,29-1011,Line item,51.1,53.4,2.3,4.5,31.4,1.4
+390,"Dentists, general",29-1021,Line item,132.1,135.7,3.7,2.8,15.6,4.2
+391,Oral and maxillofacial surgeons,29-1022,Line item,5.6,5.7,0.1,2.4,15.2,0.2
+392,Orthodontists,29-1023,Line item,7.2,7.3,0.2,2.4,15.9,0.2
+393,Prosthodontists,29-1024,Line item,0.6,0.6,0.0,2.2,15.9,0
+394,"Dentists, all other specialists",29-1029,Line item,6.2,6.2,0.0,0.2,9.7,0.2
+395,Dietitians and nutritionists,29-1031,Line item,74.2,80.1,5.9,8.0,4.1,5.3
+396,Optometrists,29-1041,Line item,44.4,46.3,1.9,4.3,10.9,1.5
+397,Pharmacists,29-1051,Line item,321.7,311.2,-10.5,-3.3,1.8,11.2
+398,Physician assistants,29-1071,Line item,125.5,164.8,39.3,31.3,2.0,11.4
+399,Podiatrists,29-1081,Line item,10.5,10.6,0.0,0.2,4.8,0.5
+401,Occupational therapists,29-1122,Line item,143.3,166.0,22.7,15.9,4.3,10.3
+402,Physical therapists,29-1123,Line item,258.2,305.2,47.0,18.2,7.5,15.2
+403,Radiation therapists,29-1124,Line item,18.5,19.9,1.3,7.1,1.5,1
+404,Recreational therapists,29-1125,Line item,19.9,21.6,1.7,8.3,—,1.2
+405,Respiratory therapists,29-1126,Line item,135.8,162.0,26.3,19.4,0.1,9.2
+406,Speech-language pathologists,29-1127,Line item,162.6,203.1,40.5,24.9,3.8,13.7
+407,Exercise physiologists,29-1128,Line item,19.8,22.1,2.2,11.3,62.3,1.4
+408,"Therapists, all other",29-1129,Line item,32.6,37.4,4.8,14.6,61.4,2.4
+409,Veterinarians,29-1131,Line item,89.2,103.4,14.2,15.9,13.6,4.5
+410,Registered nurses,29-1141,Line item,"3,096.7","3,318.7",221.9,7.2,0.6,175.9
+411,Nurse anesthetists,29-1151,Line item,44.9,51.0,6.2,13.7,0.6,2.9
+412,Nurse midwives,29-1161,Line item,7.2,8.1,0.8,11.6,2.2,0.5
+413,Nurse practitioners,29-1171,Line item,211.3,322.0,110.7,52.4,2.2,24.2
+414,Audiologists,29-1181,Line item,13.8,15.6,1.8,13.3,—,0.8
+415,Anesthesiologists,29-1211,Line item,33.8,34.0,0.2,0.5,7.1,0.9
+416,Family medicine physicians,29-1215,Line item,119.3,126.6,7.3,6.1,6.7,4
+417,General internal medicine physicians,29-1216,Line item,49.5,49.2,-0.3,-0.6,6.8,1.3
+418,Obstetricians and gynecologists,29-1218,Line item,20.3,20.1,-0.3,-1.4,7.0,0.5
+419,"Pediatricians, general",29-1221,Line item,32.5,32.0,-0.5,-1.6,7.0,0.8
+420,Psychiatrists,29-1223,Line item,27.9,31.3,3.3,11.9,5.6,1.1
+421,"Physicians, all other; and ophthalmologists, except pediatric",29-1228,Line item,429.5,447.9,18.5,4.3,5.9,13.6
+422,"Surgeons, except ophthalmologists",29-1248,Line item,39.6,38.8,-0.9,-2.2,6.9,1
+424,Dental hygienists,29-1292,Line item,226.4,239.7,13.3,5.9,1.6,15.1
+425,"Acupuncturists and healthcare diagnosing or treating practitioners, all other",29-1298,Line item,49.6,49.4,-0.1,-0.3,21.2,2.3
+427,Clinical laboratory technologists and technicians,29-2010,Line item,337.8,362.5,24.7,7.3,—,21.6
+428,Cardiovascular technologists and technicians,29-2031,Line item,57.4,60.5,3.1,5.4,—,3.2
+429,Diagnostic medical sonographers,29-2032,Line item,74.3,86.8,12.5,16.8,—,5.1
+430,Nuclear medicine technologists,29-2033,Line item,18.5,19.5,1.0,5.4,—,1
+431,Radiologic technologists and technicians,29-2034,Line item,212.0,226.1,14.1,6.7,0.0,12
+432,Magnetic resonance imaging technologists,29-2035,Line item,38.7,41.4,2.7,7.0,—,2.2
+433,Emergency medical technicians and paramedics,29-2040,Line item,265.2,282.2,17.0,6.4,0.1,17.4
+435,Dietetic technicians,29-2051,Line item,30.2,32.0,1.8,5.9,—,2.5
+436,Pharmacy technicians,29-2052,Line item,422.3,437.6,15.2,3.6,0.1,33.4
+437,Psychiatric technicians,29-2053,Line item,82.8,93.8,11.0,13.3,0.1,7.6
+438,Surgical technologists,29-2055,Line item,111.3,118.9,7.6,6.8,0.1,9.3
+439,Veterinary technologists and technicians,29-2056,Line item,112.9,131.2,18.3,16.2,0.1,10.9
+440,Ophthalmic medical technicians,29-2057,Line item,59.5,67.9,8.5,14.2,0.1,5.6
+441,Licensed practical and licensed vocational nurses,29-2061,Line item,721.7,787.4,65.7,9.1,0.7,58.4
+442,"Opticians, dispensing",29-2081,Line item,73.8,76.8,3.0,4.0,2.7,5.7
+443,Orthotists and prosthetists,29-2091,Line item,10.0,11.7,1.7,16.9,—,0.9
+444,Hearing aid specialists,29-2092,Line item,8.1,9.0,0.9,10.5,—,0.6
+445,"Medical dosimetrists, medical records specialists, and health technologists and technicians, all other",29-2098,Line item,341.6,370.6,29.0,8.5,0.1,27.8
+447,Athletic trainers,29-9091,Line item,32.1,37.3,5.2,16.2,4.0,2.2
+448,Genetic counselors,29-9092,Line item,2.6,3.2,0.6,21.5,4.7,0.2
+449,"Health information technologists, medical registrars, surgical assistants, and healthcare practitioners and technical workers, all other",29-9098,Line item,59.4,64.1,4.7,7.9,4.2,3.5
+452,Home health and personal care aides,31-1120,Line item,"3,439.7","4,599.2","1,159.5",33.7,2.5,568.8
+454,Nursing assistants,31-1131,Line item,"1,528.5","1,645.5",116.9,7.6,2.3,174
+455,Orderlies,31-1132,Line item,50.6,53.1,2.5,5.0,2.2,5.6
+456,Psychiatric aides,31-1133,Line item,59.5,66.0,6.5,10.9,1.2,7.1
+459,Occupational therapy assistants,31-2011,Line item,47.1,63.5,16.3,34.6,2.7,6.9
+460,Occupational therapy aides,31-2012,Line item,8.0,9.5,1.6,19.9,2.8,1
+462,Physical therapist assistants,31-2021,Line item,98.7,130.9,32.2,32.6,—,15.1
+463,Physical therapist aides,31-2022,Line item,50.6,61.3,10.8,21.3,—,6.9
+465,Massage therapists,31-9011,Line item,166.7,201.1,34.4,20.6,35.0,22
+467,Dental assistants,31-9091,Line item,354.6,378.0,23.4,6.6,—,39
+468,Medical assistants,31-9092,Line item,725.2,864.4,139.2,19.2,0.2,92.8
+469,Medical equipment preparers,31-9093,Line item,58.7,62.2,3.4,5.9,0.9,6.7
+470,Medical transcriptionists,31-9094,Line item,58.5,57.2,-1.3,-2.2,4.0,6.9
+471,Pharmacy aides,31-9095,Line item,37.9,32.0,-5.9,-15.7,1.3,3.2
+472,Veterinary assistants and laboratory animal caretakers,31-9096,Line item,99.5,115.2,15.7,15.8,—,16.9
+473,Phlebotomists,31-9097,Line item,132.6,155.5,22.8,17.2,1.2,15.8
+474,"Healthcare support workers, all other",31-9099,Line item,96.9,103.6,6.7,6.9,0.7,11.3
+590,First-line supervisors of retail sales workers,41-1011,Line item,"1,476.4","1,395.3",-81.2,-5.5,21.4,131
+591,First-line supervisors of non-retail sales workers,41-1012,Line item,409.8,375.7,-34.1,-8.3,38.2,28.8
+594,Cashiers,41-2011,Line item,"3,600.9","3,335.5",-265.3,-7.4,0.4,558.6
+595,Gambling change persons and booth cashiers,41-2012,Line item,21.7,22.2,0.5,2.5,—,3.8
+597,Counter and rental clerks,41-2021,Line item,420.4,424.9,4.5,1.1,0.5,46.1
+598,Parts salespersons,41-2022,Line item,261.7,267.0,5.3,2.0,1.1,29.1
+599,Retail salespersons,41-2031,Line item,"4,371.4","4,346.3",-25.1,-0.6,3.1,568.1
+601,Advertising sales agents,41-3011,Line item,139.2,130.2,-9.0,-6.5,6.7,14.4
+602,Insurance sales agents,41-3021,Line item,501.3,528.8,27.5,5.5,12.4,45.9
+603,"Securities, commodities, and financial services sales agents",41-3031,Line item,464.2,481.6,17.4,3.7,4.3,40.5
+604,Travel agents,41-3041,Line item,82.0,60.8,-21.3,-25.9,17.0,5.7
+605,"Sales representatives of services, except advertising, insurance, financial services, and travel",41-3091,Line item,"1,070.5","1,134.7",64.2,6.0,1.5,123.8
+607,"Sales representatives, wholesale and manufacturing, technical and scientific products",41-4011,Line item,321.0,334.0,13.0,4.1,2.7,30.7
+608,"Sales representatives, wholesale and manufacturing, except technical and scientific products",41-4012,Line item,"1,399.7","1,412.9",13.2,0.9,2.7,127.5
+611,Demonstrators and product promoters,41-9011,Line item,88.1,90.9,2.7,3.1,11.4,15.3
+612,Models,41-9012,Line item,2.7,2.7,0.0,0.5,8.4,0.5
+614,Real estate brokers,41-9021,Line item,100.7,103.3,2.7,2.6,56.3,8.7
+615,Real estate sales agents,41-9022,Line item,376.5,385.2,8.7,2.3,55.6,32.4
+616,Sales engineers,41-9031,Line item,64.5,68.6,4.1,6.3,—,6.7
+617,Telemarketers,41-9041,Line item,136.9,117.5,-19.4,-14.2,0.5,15.5
+619,"Door-to-door sales workers, news and street vendors, and related workers",41-9091,Line item,72.9,58.3,-14.6,-20.0,87.7,6.3
+620,"Sales and related workers, all other",41-9099,Line item,142.9,145.6,2.7,1.9,13.9,16.9
