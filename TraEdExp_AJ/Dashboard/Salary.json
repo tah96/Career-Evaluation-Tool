@@ -1,0 +1,1227 @@
+[
+    {
+        "": 79,
+        "Code": "15-0000",
+        "Median_Annual_Wage": "88,340.00"
+    },
+    {
+        "": 80,
+        "Code": "15-1200",
+        "Median_Annual_Wage": "88,240.00"
+    },
+    {
+        "": 81,
+        "Code": "15-1210",
+        "Median_Annual_Wage": "92,360.00"
+    },
+    {
+        "": 82,
+        "Code": "15-1211",
+        "Median_Annual_Wage": "90,920.00"
+    },
+    {
+        "": 83,
+        "Code": "15-1212",
+        "Median_Annual_Wage": "99,730.00"
+    },
+    {
+        "": 84,
+        "Code": "15-1221",
+        "Median_Annual_Wage": "122,840.00"
+    },
+    {
+        "": 85,
+        "Code": "15-1230",
+        "Median_Annual_Wage": "54,760.00"
+    },
+    {
+        "": 86,
+        "Code": "15-1231",
+        "Median_Annual_Wage": "63,460.00"
+    },
+    {
+        "": 87,
+        "Code": "15-1232",
+        "Median_Annual_Wage": "52,270.00"
+    },
+    {
+        "": 88,
+        "Code": "15-1240",
+        "Median_Annual_Wage": "91,390.00"
+    },
+    {
+        "": 89,
+        "Code": "15-1241",
+        "Median_Annual_Wage": "112,690.00"
+    },
+    {
+        "": 90,
+        "Code": "15-1244",
+        "Median_Annual_Wage": "83,510.00"
+    },
+    {
+        "": 91,
+        "Code": "15-1245",
+        "Median_Annual_Wage": "93,750.00"
+    },
+    {
+        "": 92,
+        "Code": "15-1250",
+        "Median_Annual_Wage": "102,330.00"
+    },
+    {
+        "": 93,
+        "Code": "15-1251",
+        "Median_Annual_Wage": "86,550.00"
+    },
+    {
+        "": 94,
+        "Code": "15-1256",
+        "Median_Annual_Wage": "107,510.00"
+    },
+    {
+        "": 95,
+        "Code": "15-1257",
+        "Median_Annual_Wage": "73,760.00"
+    },
+    {
+        "": 96,
+        "Code": "15-1299",
+        "Median_Annual_Wage": "88,550.00"
+    },
+    {
+        "": 97,
+        "Code": "15-2000",
+        "Median_Annual_Wage": "90,410.00"
+    },
+    {
+        "": 98,
+        "Code": "15-2011",
+        "Median_Annual_Wage": "108,350.00"
+    },
+    {
+        "": 99,
+        "Code": "15-2021",
+        "Median_Annual_Wage": "105,030.00"
+    },
+    {
+        "": 100,
+        "Code": "15-2031",
+        "Median_Annual_Wage": "84,810.00"
+    },
+    {
+        "": 101,
+        "Code": "15-2041",
+        "Median_Annual_Wage": "91,160.00"
+    },
+    {
+        "": 102,
+        "Code": "15-2098",
+        "Median_Annual_Wage": "94,280.00"
+    },
+    {
+        "": 233,
+        "Code": "23-0000",
+        "Median_Annual_Wage": "81,820.00"
+    },
+    {
+        "": 234,
+        "Code": "23-1000",
+        "Median_Annual_Wage": "119,970.00"
+    },
+    {
+        "": 235,
+        "Code": "23-1010",
+        "Median_Annual_Wage": "120,670.00"
+    },
+    {
+        "": 236,
+        "Code": "23-1011",
+        "Median_Annual_Wage": "122,960.00"
+    },
+    {
+        "": 237,
+        "Code": "23-1012",
+        "Median_Annual_Wage": "54,010.00"
+    },
+    {
+        "": 238,
+        "Code": "23-1020",
+        "Median_Annual_Wage": "111,080.00"
+    },
+    {
+        "": 239,
+        "Code": "23-1021",
+        "Median_Annual_Wage": "97,870.00"
+    },
+    {
+        "": 240,
+        "Code": "23-1022",
+        "Median_Annual_Wage": "63,930.00"
+    },
+    {
+        "": 241,
+        "Code": "23-1023",
+        "Median_Annual_Wage": "136,910.00"
+    },
+    {
+        "": 242,
+        "Code": "23-2000",
+        "Median_Annual_Wage": "51,920.00"
+    },
+    {
+        "": 243,
+        "Code": "23-2011",
+        "Median_Annual_Wage": "51,740.00"
+    },
+    {
+        "": 244,
+        "Code": "23-2090",
+        "Median_Annual_Wage": "52,430.00"
+    },
+    {
+        "": 245,
+        "Code": "23-2093",
+        "Median_Annual_Wage": "48,180.00"
+    },
+    {
+        "": 246,
+        "Code": "23-2099",
+        "Median_Annual_Wage": "58,400.00"
+    },
+    {
+        "": 247,
+        "Code": "25-0000",
+        "Median_Annual_Wage": "50,790.00"
+    },
+    {
+        "": 248,
+        "Code": "25-1000",
+        "Median_Annual_Wage": "75,440.00"
+    },
+    {
+        "": 249,
+        "Code": "25-1011",
+        "Median_Annual_Wage": "87,200.00"
+    },
+    {
+        "": 250,
+        "Code": "25-1020",
+        "Median_Annual_Wage": "77,710.00"
+    },
+    {
+        "": 251,
+        "Code": "25-1021",
+        "Median_Annual_Wage": "85,180.00"
+    },
+    {
+        "": 252,
+        "Code": "25-1022",
+        "Median_Annual_Wage": "73,690.00"
+    },
+    {
+        "": 253,
+        "Code": "25-1030",
+        "Median_Annual_Wage": "99,300.00"
+    },
+    {
+        "": 254,
+        "Code": "25-1031",
+        "Median_Annual_Wage": "87,900.00"
+    },
+    {
+        "": 255,
+        "Code": "25-1032",
+        "Median_Annual_Wage": "101,010.00"
+    },
+    {
+        "": 256,
+        "Code": "25-1040",
+        "Median_Annual_Wage": "83,370.00"
+    },
+    {
+        "": 257,
+        "Code": "25-1041",
+        "Median_Annual_Wage": "83,260.00"
+    },
+    {
+        "": 258,
+        "Code": "25-1042",
+        "Median_Annual_Wage": "83,300.00"
+    },
+    {
+        "": 259,
+        "Code": "25-1043",
+        "Median_Annual_Wage": "85,450.00"
+    },
+    {
+        "": 260,
+        "Code": "25-1050",
+        "Median_Annual_Wage": "84,730.00"
+    },
+    {
+        "": 261,
+        "Code": "25-1051",
+        "Median_Annual_Wage": "92,040.00"
+    },
+    {
+        "": 262,
+        "Code": "25-1052",
+        "Median_Annual_Wage": "79,550.00"
+    },
+    {
+        "": 263,
+        "Code": "25-1053",
+        "Median_Annual_Wage": "82,430.00"
+    },
+    {
+        "": 264,
+        "Code": "25-1054",
+        "Median_Annual_Wage": "89,590.00"
+    },
+    {
+        "": 265,
+        "Code": "25-1060",
+        "Median_Annual_Wage": "80,020.00"
+    },
+    {
+        "": 266,
+        "Code": "25-1061",
+        "Median_Annual_Wage": "86,220.00"
+    },
+    {
+        "": 267,
+        "Code": "25-1062",
+        "Median_Annual_Wage": "77,070.00"
+    },
+    {
+        "": 268,
+        "Code": "25-1063",
+        "Median_Annual_Wage": "104,370.00"
+    },
+    {
+        "": 269,
+        "Code": "25-1064",
+        "Median_Annual_Wage": "80,520.00"
+    },
+    {
+        "": 270,
+        "Code": "25-1065",
+        "Median_Annual_Wage": "85,930.00"
+    },
+    {
+        "": 271,
+        "Code": "25-1066",
+        "Median_Annual_Wage": "76,620.00"
+    },
+    {
+        "": 272,
+        "Code": "25-1067",
+        "Median_Annual_Wage": "75,290.00"
+    },
+    {
+        "": 273,
+        "Code": "25-1069",
+        "Median_Annual_Wage": "71,530.00"
+    },
+    {
+        "": 274,
+        "Code": "25-1070",
+        "Median_Annual_Wage": "89,910.00"
+    },
+    {
+        "": 275,
+        "Code": "25-1071",
+        "Median_Annual_Wage": "97,320.00"
+    },
+    {
+        "": 276,
+        "Code": "25-1072",
+        "Median_Annual_Wage": "74,600.00"
+    },
+    {
+        "": 277,
+        "Code": "25-1080",
+        "Median_Annual_Wage": "66,000.00"
+    },
+    {
+        "": 278,
+        "Code": "25-1081",
+        "Median_Annual_Wage": "65,510.00"
+    },
+    {
+        "": 279,
+        "Code": "25-1082",
+        "Median_Annual_Wage": "71,410.00"
+    },
+    {
+        "": 280,
+        "Code": "25-1110",
+        "Median_Annual_Wage": "75,580.00"
+    },
+    {
+        "": 281,
+        "Code": "25-1111",
+        "Median_Annual_Wage": "62,860.00"
+    },
+    {
+        "": 282,
+        "Code": "25-1112",
+        "Median_Annual_Wage": "113,530.00"
+    },
+    {
+        "": 283,
+        "Code": "25-1113",
+        "Median_Annual_Wage": "72,070.00"
+    },
+    {
+        "": 284,
+        "Code": "25-1120",
+        "Median_Annual_Wage": "70,550.00"
+    },
+    {
+        "": 285,
+        "Code": "25-1121",
+        "Median_Annual_Wage": "69,530.00"
+    },
+    {
+        "": 286,
+        "Code": "25-1122",
+        "Median_Annual_Wage": "70,630.00"
+    },
+    {
+        "": 287,
+        "Code": "25-1123",
+        "Median_Annual_Wage": "68,490.00"
+    },
+    {
+        "": 288,
+        "Code": "25-1124",
+        "Median_Annual_Wage": "69,990.00"
+    },
+    {
+        "": 289,
+        "Code": "25-1125",
+        "Median_Annual_Wage": "75,170.00"
+    },
+    {
+        "": 290,
+        "Code": "25-1126",
+        "Median_Annual_Wage": "75,240.00"
+    },
+    {
+        "": 291,
+        "Code": "25-1190",
+        "Median_Annual_Wage": "62,040.00"
+    },
+    {
+        "": 292,
+        "Code": "25-1192",
+        "Median_Annual_Wage": "76,480.00"
+    },
+    {
+        "": 293,
+        "Code": "25-1193",
+        "Median_Annual_Wage": "64,380.00"
+    },
+    {
+        "": 294,
+        "Code": "25-1194",
+        "Median_Annual_Wage": "54,620.00"
+    },
+    {
+        "": 295,
+        "Code": "25-1199",
+        "Median_Annual_Wage": "68,970.00"
+    },
+    {
+        "": 296,
+        "Code": "25-2000",
+        "Median_Annual_Wage": "58,050.00"
+    },
+    {
+        "": 297,
+        "Code": "25-2010",
+        "Median_Annual_Wage": "34,630.00"
+    },
+    {
+        "": 298,
+        "Code": "25-2011",
+        "Median_Annual_Wage": "30,520.00"
+    },
+    {
+        "": 299,
+        "Code": "25-2012",
+        "Median_Annual_Wage": "56,850.00"
+    },
+    {
+        "": 300,
+        "Code": "25-2020",
+        "Median_Annual_Wage": "59,670.00"
+    },
+    {
+        "": 301,
+        "Code": "25-2021",
+        "Median_Annual_Wage": "59,670.00"
+    },
+    {
+        "": 302,
+        "Code": "25-2022",
+        "Median_Annual_Wage": "59,660.00"
+    },
+    {
+        "": 303,
+        "Code": "25-2023",
+        "Median_Annual_Wage": "60,800.00"
+    },
+    {
+        "": 304,
+        "Code": "25-2030",
+        "Median_Annual_Wage": "61,660.00"
+    },
+    {
+        "": 305,
+        "Code": "25-2031",
+        "Median_Annual_Wage": "61,660.00"
+    },
+    {
+        "": 306,
+        "Code": "25-2032",
+        "Median_Annual_Wage": "61,710.00"
+    },
+    {
+        "": 307,
+        "Code": "25-2050",
+        "Median_Annual_Wage": "61,040.00"
+    },
+    {
+        "": 308,
+        "Code": "25-2051",
+        "Median_Annual_Wage": "60,000.00"
+    },
+    {
+        "": 309,
+        "Code": "25-2052",
+        "Median_Annual_Wage": "60,460.00"
+    },
+    {
+        "": 310,
+        "Code": "25-2057",
+        "Median_Annual_Wage": "61,440.00"
+    },
+    {
+        "": 311,
+        "Code": "25-2058",
+        "Median_Annual_Wage": "61,710.00"
+    },
+    {
+        "": 312,
+        "Code": "25-2059",
+        "Median_Annual_Wage": "61,190.00"
+    },
+    {
+        "": 313,
+        "Code": "25-3000",
+        "Median_Annual_Wage": "33,140.00"
+    },
+    {
+        "": 314,
+        "Code": "25-3011",
+        "Median_Annual_Wage": "54,350.00"
+    },
+    {
+        "": 315,
+        "Code": "25-3021",
+        "Median_Annual_Wage": "39,190.00"
+    },
+    {
+        "": 316,
+        "Code": "25-3031",
+        "Median_Annual_Wage": "28,790.00"
+    },
+    {
+        "": 317,
+        "Code": "25-3097",
+        "Median_Annual_Wage": "39,350.00"
+    },
+    {
+        "": 318,
+        "Code": "25-4000",
+        "Median_Annual_Wage": "49,030.00"
+    },
+    {
+        "": 319,
+        "Code": "25-4010",
+        "Median_Annual_Wage": "49,850.00"
+    },
+    {
+        "": 320,
+        "Code": "25-4011",
+        "Median_Annual_Wage": "53,950.00"
+    },
+    {
+        "": 321,
+        "Code": "25-4012",
+        "Median_Annual_Wage": "54,570.00"
+    },
+    {
+        "": 322,
+        "Code": "25-4013",
+        "Median_Annual_Wage": "44,430.00"
+    },
+    {
+        "": 323,
+        "Code": "25-4022",
+        "Median_Annual_Wage": "59,500.00"
+    },
+    {
+        "": 324,
+        "Code": "25-4031",
+        "Median_Annual_Wage": "34,900.00"
+    },
+    {
+        "": 325,
+        "Code": "25-9000",
+        "Median_Annual_Wage": "29,910.00"
+    },
+    {
+        "": 326,
+        "Code": "25-9021",
+        "Median_Annual_Wage": "49,710.00"
+    },
+    {
+        "": 327,
+        "Code": "25-9031",
+        "Median_Annual_Wage": "66,290.00"
+    },
+    {
+        "": 328,
+        "Code": "25-9040",
+        "Median_Annual_Wage": "28,210.00"
+    },
+    {
+        "": 329,
+        "Code": "25-9044",
+        "Median_Annual_Wage": "32,080.00"
+    },
+    {
+        "": 330,
+        "Code": "25-9045",
+        "Median_Annual_Wage": "27,920.00"
+    },
+    {
+        "": 331,
+        "Code": "25-9099",
+        "Median_Annual_Wage": "40,310.00"
+    },
+    {
+        "": 385,
+        "Code": "29-0000",
+        "Median_Annual_Wage": "68,190.00"
+    },
+    {
+        "": 386,
+        "Code": "29-1000",
+        "Median_Annual_Wage": "82,380.00"
+    },
+    {
+        "": 387,
+        "Code": "29-1011",
+        "Median_Annual_Wage": "70,340.00"
+    },
+    {
+        "": 388,
+        "Code": "29-1020",
+        "Median_Annual_Wage": "159,200.00"
+    },
+    {
+        "": 389,
+        "Code": "29-1021",
+        "Median_Annual_Wage": "155,600.00"
+    },
+    {
+        "": 390,
+        "Code": "29-1022",
+        "Median_Annual_Wage": "208,000.00"
+    },
+    {
+        "": 391,
+        "Code": "29-1023",
+        "Median_Annual_Wage": "208,000.00"
+    },
+    {
+        "": 392,
+        "Code": "29-1024",
+        "Median_Annual_Wage": "208,000.00"
+    },
+    {
+        "": 393,
+        "Code": "29-1029",
+        "Median_Annual_Wage": "147,220.00"
+    },
+    {
+        "": 394,
+        "Code": "29-1031",
+        "Median_Annual_Wage": "61,270.00"
+    },
+    {
+        "": 395,
+        "Code": "29-1041",
+        "Median_Annual_Wage": "115,250.00"
+    },
+    {
+        "": 396,
+        "Code": "29-1051",
+        "Median_Annual_Wage": "128,090.00"
+    },
+    {
+        "": 397,
+        "Code": "29-1071",
+        "Median_Annual_Wage": "112,260.00"
+    },
+    {
+        "": 398,
+        "Code": "29-1081",
+        "Median_Annual_Wage": "126,240.00"
+    },
+    {
+        "": 399,
+        "Code": "29-1120",
+        "Median_Annual_Wage": "78,790.00"
+    },
+    {
+        "": 400,
+        "Code": "29-1122",
+        "Median_Annual_Wage": "84,950.00"
+    },
+    {
+        "": 401,
+        "Code": "29-1123",
+        "Median_Annual_Wage": "89,440.00"
+    },
+    {
+        "": 402,
+        "Code": "29-1124",
+        "Median_Annual_Wage": "85,560.00"
+    },
+    {
+        "": 403,
+        "Code": "29-1125",
+        "Median_Annual_Wage": "48,220.00"
+    },
+    {
+        "": 404,
+        "Code": "29-1126",
+        "Median_Annual_Wage": "61,330.00"
+    },
+    {
+        "": 405,
+        "Code": "29-1127",
+        "Median_Annual_Wage": "79,120.00"
+    },
+    {
+        "": 406,
+        "Code": "29-1128",
+        "Median_Annual_Wage": "49,170.00"
+    },
+    {
+        "": 407,
+        "Code": "29-1129",
+        "Median_Annual_Wage": "52,650.00"
+    },
+    {
+        "": 408,
+        "Code": "29-1131",
+        "Median_Annual_Wage": "95,460.00"
+    },
+    {
+        "": 409,
+        "Code": "29-1141",
+        "Median_Annual_Wage": "73,300.00"
+    },
+    {
+        "": 410,
+        "Code": "29-1151",
+        "Median_Annual_Wage": "174,790.00"
+    },
+    {
+        "": 411,
+        "Code": "29-1161",
+        "Median_Annual_Wage": "105,030.00"
+    },
+    {
+        "": 412,
+        "Code": "29-1171",
+        "Median_Annual_Wage": "109,820.00"
+    },
+    {
+        "": 413,
+        "Code": "29-1181",
+        "Median_Annual_Wage": "77,600.00"
+    },
+    {
+        "": 414,
+        "Code": "29-1211",
+        "Median_Annual_Wage": "208,000.00"
+    },
+    {
+        "": 415,
+        "Code": "29-1215",
+        "Median_Annual_Wage": "205,590.00"
+    },
+    {
+        "": 416,
+        "Code": "29-1216",
+        "Median_Annual_Wage": "201,590.00"
+    },
+    {
+        "": 417,
+        "Code": "29-1218",
+        "Median_Annual_Wage": "208,000.00"
+    },
+    {
+        "": 418,
+        "Code": "29-1221",
+        "Median_Annual_Wage": "175,310.00"
+    },
+    {
+        "": 419,
+        "Code": "29-1223",
+        "Median_Annual_Wage": "208,000.00"
+    },
+    {
+        "": 420,
+        "Code": "29-1228",
+        "Median_Annual_Wage": "206,500.00"
+    },
+    {
+        "": 421,
+        "Code": "29-1248",
+        "Median_Annual_Wage": "208,000.00"
+    },
+    {
+        "": 422,
+        "Code": "29-1290",
+        "Median_Annual_Wage": "76,190.00"
+    },
+    {
+        "": 423,
+        "Code": "29-1292",
+        "Median_Annual_Wage": "76,220.00"
+    },
+    {
+        "": 424,
+        "Code": "29-1298",
+        "Median_Annual_Wage": "75,640.00"
+    },
+    {
+        "": 425,
+        "Code": "29-2000",
+        "Median_Annual_Wage": "44,380.00"
+    },
+    {
+        "": 426,
+        "Code": "29-2010",
+        "Median_Annual_Wage": "53,120.00"
+    },
+    {
+        "": 427,
+        "Code": "29-2031",
+        "Median_Annual_Wage": "57,720.00"
+    },
+    {
+        "": 428,
+        "Code": "29-2032",
+        "Median_Annual_Wage": "74,320.00"
+    },
+    {
+        "": 429,
+        "Code": "29-2033",
+        "Median_Annual_Wage": "77,950.00"
+    },
+    {
+        "": 430,
+        "Code": "29-2034",
+        "Median_Annual_Wage": "60,510.00"
+    },
+    {
+        "": 431,
+        "Code": "29-2035",
+        "Median_Annual_Wage": "73,410.00"
+    },
+    {
+        "": 432,
+        "Code": "29-2040",
+        "Median_Annual_Wage": "35,400.00"
+    },
+    {
+        "": 433,
+        "Code": "29-2050",
+        "Median_Annual_Wage": "35,610.00"
+    },
+    {
+        "": 434,
+        "Code": "29-2051",
+        "Median_Annual_Wage": "28,400.00"
+    },
+    {
+        "": 435,
+        "Code": "29-2052",
+        "Median_Annual_Wage": "33,950.00"
+    },
+    {
+        "": 436,
+        "Code": "29-2053",
+        "Median_Annual_Wage": "33,780.00"
+    },
+    {
+        "": 437,
+        "Code": "29-2055",
+        "Median_Annual_Wage": "48,300.00"
+    },
+    {
+        "": 438,
+        "Code": "29-2056",
+        "Median_Annual_Wage": "35,320.00"
+    },
+    {
+        "": 439,
+        "Code": "29-2057",
+        "Median_Annual_Wage": "36,940.00"
+    },
+    {
+        "": 440,
+        "Code": "29-2061",
+        "Median_Annual_Wage": "47,480.00"
+    },
+    {
+        "": 441,
+        "Code": "29-2081",
+        "Median_Annual_Wage": "37,840.00"
+    },
+    {
+        "": 442,
+        "Code": "29-2091",
+        "Median_Annual_Wage": "68,410.00"
+    },
+    {
+        "": 443,
+        "Code": "29-2092",
+        "Median_Annual_Wage": "53,420.00"
+    },
+    {
+        "": 444,
+        "Code": "29-2098",
+        "Median_Annual_Wage": "42,630.00"
+    },
+    {
+        "": 445,
+        "Code": "29-9000",
+        "Median_Annual_Wage": "49,770.00"
+    },
+    {
+        "": 446,
+        "Code": "29-9091",
+        "Median_Annual_Wage": "48,440.00"
+    },
+    {
+        "": 447,
+        "Code": "29-9092",
+        "Median_Annual_Wage": "81,880.00"
+    },
+    {
+        "": 448,
+        "Code": "29-9098",
+        "Median_Annual_Wage": "49,850.00"
+    },
+    {
+        "": 449,
+        "Code": "31-0000",
+        "Median_Annual_Wage": "28,470.00"
+    },
+    {
+        "": 450,
+        "Code": "31-1100",
+        "Median_Annual_Wage": "26,380.00"
+    },
+    {
+        "": 451,
+        "Code": "31-1120",
+        "Median_Annual_Wage": "25,280.00"
+    },
+    {
+        "": 452,
+        "Code": "31-1130",
+        "Median_Annual_Wage": "29,680.00"
+    },
+    {
+        "": 453,
+        "Code": "31-1131",
+        "Median_Annual_Wage": "29,660.00"
+    },
+    {
+        "": 454,
+        "Code": "31-1132",
+        "Median_Annual_Wage": "28,980.00"
+    },
+    {
+        "": 455,
+        "Code": "31-1133",
+        "Median_Annual_Wage": "31,110.00"
+    },
+    {
+        "": 456,
+        "Code": "31-2000",
+        "Median_Annual_Wage": "52,910.00"
+    },
+    {
+        "": 457,
+        "Code": "31-2010",
+        "Median_Annual_Wage": "59,200.00"
+    },
+    {
+        "": 458,
+        "Code": "31-2011",
+        "Median_Annual_Wage": "61,510.00"
+    },
+    {
+        "": 459,
+        "Code": "31-2012",
+        "Median_Annual_Wage": "29,230.00"
+    },
+    {
+        "": 460,
+        "Code": "31-2020",
+        "Median_Annual_Wage": "48,990.00"
+    },
+    {
+        "": 461,
+        "Code": "31-2021",
+        "Median_Annual_Wage": "58,790.00"
+    },
+    {
+        "": 462,
+        "Code": "31-2022",
+        "Median_Annual_Wage": "27,000.00"
+    },
+    {
+        "": 463,
+        "Code": "31-9000",
+        "Median_Annual_Wage": "35,860.00"
+    },
+    {
+        "": 464,
+        "Code": "31-9011",
+        "Median_Annual_Wage": "42,820.00"
+    },
+    {
+        "": 465,
+        "Code": "31-9090",
+        "Median_Annual_Wage": "35,630.00"
+    },
+    {
+        "": 466,
+        "Code": "31-9091",
+        "Median_Annual_Wage": "40,080.00"
+    },
+    {
+        "": 467,
+        "Code": "31-9092",
+        "Median_Annual_Wage": "34,800.00"
+    },
+    {
+        "": 468,
+        "Code": "31-9093",
+        "Median_Annual_Wage": "37,440.00"
+    },
+    {
+        "": 469,
+        "Code": "31-9094",
+        "Median_Annual_Wage": "33,380.00"
+    },
+    {
+        "": 470,
+        "Code": "31-9095",
+        "Median_Annual_Wage": "27,850.00"
+    },
+    {
+        "": 471,
+        "Code": "31-9096",
+        "Median_Annual_Wage": "28,590.00"
+    },
+    {
+        "": 472,
+        "Code": "31-9097",
+        "Median_Annual_Wage": "35,510.00"
+    },
+    {
+        "": 473,
+        "Code": "31-9099",
+        "Median_Annual_Wage": "38,460.00"
+    },
+    {
+        "": 587,
+        "Code": "41-0000",
+        "Median_Annual_Wage": "29,630.00"
+    },
+    {
+        "": 588,
+        "Code": "41-1000",
+        "Median_Annual_Wage": "44,250.00"
+    },
+    {
+        "": 589,
+        "Code": "41-1011",
+        "Median_Annual_Wage": "40,350.00"
+    },
+    {
+        "": 590,
+        "Code": "41-1012",
+        "Median_Annual_Wage": "74,760.00"
+    },
+    {
+        "": 591,
+        "Code": "41-2000",
+        "Median_Annual_Wage": "24,630.00"
+    },
+    {
+        "": 592,
+        "Code": "41-2010",
+        "Median_Annual_Wage": "23,660.00"
+    },
+    {
+        "": 593,
+        "Code": "41-2011",
+        "Median_Annual_Wage": "23,650.00"
+    },
+    {
+        "": 594,
+        "Code": "41-2012",
+        "Median_Annual_Wage": "25,690.00"
+    },
+    {
+        "": 595,
+        "Code": "41-2020",
+        "Median_Annual_Wage": "29,860.00"
+    },
+    {
+        "": 596,
+        "Code": "41-2021",
+        "Median_Annual_Wage": "28,820.00"
+    },
+    {
+        "": 597,
+        "Code": "41-2022",
+        "Median_Annual_Wage": "31,710.00"
+    },
+    {
+        "": 598,
+        "Code": "41-2031",
+        "Median_Annual_Wage": "25,250.00"
+    },
+    {
+        "": 599,
+        "Code": "41-3000",
+        "Median_Annual_Wage": "55,370.00"
+    },
+    {
+        "": 600,
+        "Code": "41-3011",
+        "Median_Annual_Wage": "53,310.00"
+    },
+    {
+        "": 601,
+        "Code": "41-3021",
+        "Median_Annual_Wage": "50,940.00"
+    },
+    {
+        "": 602,
+        "Code": "41-3031",
+        "Median_Annual_Wage": "62,270.00"
+    },
+    {
+        "": 603,
+        "Code": "41-3041",
+        "Median_Annual_Wage": "40,660.00"
+    },
+    {
+        "": 604,
+        "Code": "41-3091",
+        "Median_Annual_Wage": "56,130.00"
+    },
+    {
+        "": 605,
+        "Code": "41-4000",
+        "Median_Annual_Wage": "63,000.00"
+    },
+    {
+        "": 606,
+        "Code": "41-4011",
+        "Median_Annual_Wage": "81,020.00"
+    },
+    {
+        "": 607,
+        "Code": "41-4012",
+        "Median_Annual_Wage": "59,930.00"
+    },
+    {
+        "": 608,
+        "Code": "41-9000",
+        "Median_Annual_Wage": "37,220.00"
+    },
+    {
+        "": 609,
+        "Code": "41-9010",
+        "Median_Annual_Wage": "30,890.00"
+    },
+    {
+        "": 610,
+        "Code": "41-9011",
+        "Median_Annual_Wage": "30,930.00"
+    },
+    {
+        "": 611,
+        "Code": "41-9012",
+        "Median_Annual_Wage": "28,350.00"
+    },
+    {
+        "": 612,
+        "Code": "41-9020",
+        "Median_Annual_Wage": "50,730.00"
+    },
+    {
+        "": 613,
+        "Code": "41-9021",
+        "Median_Annual_Wage": "59,720.00"
+    },
+    {
+        "": 614,
+        "Code": "41-9022",
+        "Median_Annual_Wage": "48,930.00"
+    },
+    {
+        "": 615,
+        "Code": "41-9031",
+        "Median_Annual_Wage": "103,900.00"
+    },
+    {
+        "": 616,
+        "Code": "41-9041",
+        "Median_Annual_Wage": "26,290.00"
+    },
+    {
+        "": 617,
+        "Code": "41-9090",
+        "Median_Annual_Wage": "31,480.00"
+    },
+    {
+        "": 618,
+        "Code": "41-9091",
+        "Median_Annual_Wage": "27,420.00"
+    },
+    {
+        "": 619,
+        "Code": "41-9099",
+        "Median_Annual_Wage": "31,820.00"
+    }
+]
