@@ -19,29 +19,21 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: API_KEY
   }).addTo(myMap);
 
-const lng = []
-const lat = []
-const state_name = []
-
 d3.json(state_coords, function(coord_data) {
     var stateCoords = coord_data;
     stateCoords.forEach((state) => {
-        const long = state.Longitude;
-        const lt = state.Latitude;
-        const states = state.State
-        lng.append(long)
-        lat.append(lt)
-        state_name.append(states)
+        const lng = state.Longitude;
+        const lat = state.Latitude;
+        const lnglat = { lon: lng, lat: lat};
+        L.marker(lnglat)
 
+        .addTo(myMap);
+        console.log(lnglat)
     })
 });
 
-const lnglat = { lon: lng, lat: lat};
 
-L.marker(lnglat)
-    .bindPopup("<h1>" + state_name + "</h1>")
-    .addTo(myMap);
-    console.log(lnglat)
+
 
 // filter by search_code from app.js
 
