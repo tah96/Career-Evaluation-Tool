@@ -27,34 +27,51 @@
           <select id="jobDataset"></select>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3 class="panel-title">Career Snapshot:</h3>
-            </div>
-            <div id="sample-metadata" class="panel-body"></div>
-            <ul></ul>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Career Snapshot:</h3>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div id="pie"></div>
-        </div>
-        <div class="col-md-4">
-          <div id="box"></div>
+          <div id="sample-metadata" class="panel-body"></div>
+          <ul></ul>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div id="box"></div>
-        </div>
+      <div class="col-md-4">
+        <div id="pie"></div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div id="map"></div>
+      <div class="col-md-4">
+        <div id="box"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Jobs in Your Area:
+            <form id="location-form" class ="location-filter">
+              <div class="form-group">
+                <ul class="list-group" id="filters">
+                  <li class="filter list-group-item">
+                    <input class="form-control" id="location-input" type="text" placeholder="Raleigh, NC">
+                  </li>
+                </ul>
+              </div>
+            </form>
+            </h3>
+          </div>
+          <div id="cos-api" class="panel-body">
+          </div>
+          <div class="panel-footer">
+            <p class="panel-text"><small class="text-muted">
+              Job Information from <a href=https://www.careeronestop.org/toolkit/jobs/find-jobs.aspx?newsearch=true>https://www.careeronestop.org/toolkit/jobs/find-jobs.aspx?newsearch=true</a>, part of the CareerOneStop suite of web products, sponsored by the U.S. Department of Labor Employment and Training Administration.
+            </small></p>
+          </div>
         </div>
       </div>
     </div>
+  </div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script>
