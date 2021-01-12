@@ -13,7 +13,10 @@ function optionChanged() {
 
     var dropdownoptions = d3.select("#jobDataset");
     var title = dropdownoptions.property("value");
+    var locationElement = d3.select("#location-input");
+    var locationValue = locationElement.property("value")
     console.log(title);
+    console.log(locationValue)
 
     search_code = [];
     //Filter for the respective code for the title using the jobtitles.json file.
