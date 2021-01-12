@@ -1,7 +1,7 @@
 // Use the D3 libary to read in "jobtitles.json" file.  
 //  Add list of job titles to drop down menu.
 d3.json("jobtitles.json").then(function (data) {
-    console.log(data);
+    // console.log(data);
     for (var i = 0; i < data.length; i++) {
         var option = d3.select("#jobDataset").append("option").text(data[i].Title);
         // console.log(option);
@@ -14,6 +14,25 @@ function unpack(rows, index) {
     });
 }
 
+// Set map to geographic center of USA
+const centerLatLng = [39.8283, -98.5795]
+
+// Create base map in Leaflet
+var myMap = L.map("map", {
+    center: centerLatLng,
+    zoom: 5,
+});
+
+// Create base tile layer and add to map
+L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
+    attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
+    tileSize: 512,
+    maxZoom: 18,
+    zoomOffset: -1,
+    id: "mapbox/streets-v11",
+    accessToken: API_KEY
+  }).addTo(myMap);
+
 d3.selectAll("#jobDataset").on("change", optionChanged);
 
 function optionChanged() {
@@ -21,17 +40,18 @@ function optionChanged() {
 
     var dropdownoptions = d3.select("#jobDataset");
     var title = dropdownoptions.property("value");
-    // console.log(title);
+    console.log(title);
 
     search_code = [];
     //Filter for the respective code for the title using the jobtitles.json file.
     d3.json("jobtitles.json").then(function (data) {
         var jobs = data
+        // console.log(jobs)
         var search = jobs.filter(job => job.Title == title);
-        console.log(search);
+        // console.log(search);
         var code = search[0].Code;
         search_code.push(code);
-        console.log(code);
+        // console.log(code);
     });
     // console.log(search_code);
 
@@ -68,5 +88,29 @@ function optionChanged() {
         };
         Plotly.newPlot('pie', piechart, layout);
     });
-};
 
+    d3.json("all_state_data.json").then(function (data3) {
+        // console.log(data3)
+        // console.log(search_code[0])
+        // var 
+        // var jobData = data3.filter(job => job.Occupation_Code == search_code)
+        // console.log(jobData)
+
+        // for (var i = 0; i < jobData.length; i++) {
+        //     var meanHourly = jobData.Mean_Hourly_Income
+        //     console.log(meanHourly)
+        // }
+        // console.log(jobData);
+
+        for (var i = 0; i < data3.length; i++) {
+            var d = data3[i];
+            const lng = d.Longitude;
+            const lat = d.Latitude;
+            const lnglat = {lon: lng, lat: lat};
+            L.marker(lnglat)
+            .bindPopup("<h1>" + d.State + "</h1> <hr> <h3> Mean Hourly" + d.Mean_Hourly_Income + "</h3>")
+            .addTo(myMap);
+            // console.log(d.Mean_Hourly_Income)
+        }
+    });
+};
