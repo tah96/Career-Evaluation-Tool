@@ -93,24 +93,45 @@ function optionChanged() {
         // console.log(data3)
         // console.log(search_code[0])
         // var 
-        // var jobData = data3.filter(job => job.Occupation_Code == search_code)
+        var jobData = data3.filter(jobs => jobs.Occupation_Code == search_code[0])
         // console.log(jobData)
 
-        // for (var i = 0; i < jobData.length; i++) {
-        //     var meanHourly = jobData.Mean_Hourly_Income
-        //     console.log(meanHourly)
-        // }
-        // console.log(jobData);
+        for (var i = 0; i < jobData.length; i++) {
+            var meanHourly = jobData[i].Mean_Hourly_Income
+            console.log(meanHourly)
+        }
 
-        for (var i = 0; i < data3.length; i++) {
-            var d = data3[i];
+        for (var i = 0; i < jobData.length; i++) {
+            var d = jobData[i];
             const lng = d.Longitude;
             const lat = d.Latitude;
             const lnglat = {lon: lng, lat: lat};
             L.marker(lnglat)
-            .bindPopup("<h1>" + d.State + "</h1> <hr> <h3> Mean Hourly" + d.Mean_Hourly_Income + "</h3>")
+            .bindPopup("<h3> Salary Statistics for <strong>" + d.Occupation_Title + "</strong> in " + d.State + "</h3> <hr> <h6> Mean Hourly Income: " + d.Mean_Hourly_Income + "</h6> <hr> <h6> Mean Annual Income: " + d.Mean_Annual_Income + "</h6> <hr> <h6> Mean Hourly Income: " + d.Median_Hourly_Income + "</h6> <hr> <h6> Mean Annual Income: " + d.Median_Annual_Income + "</h6>")
             .addTo(myMap);
-            // console.log(d.Mean_Hourly_Income)
+            console.log(d.Mean_Hourly_Income)
         }
+
+        // L.geoJson(data, {
+        //     // We turn each feature into a circleMarker on the map.
+        //     pointToLayer: function(feature, latlng) {
+        //       return L.circleMarker(latlng);
+        //     },
+        //     // We set the style for each circleMarker using our styleInfo function.
+        //     style: styleInfo,
+        //     // We create a popup for each marker to display the magnitude and location of
+        //     // the earthquake after the marker has been created and styled
+        //     onEachFeature: function(feature, layer) {
+        //       layer.bindPopup(
+        //         "Magnitude: "
+        //           + feature.properties.mag
+        //           + "<br>Depth: "
+        //           + feature.geometry.coordinates[2]
+        //           + "<br>Location: "
+        //           + feature.properties.place
+        //       );
+        //     }
+        //     // We add the data to the earthquake layer instead of directly to the map.
+        //   }).addTo(earthquakes);
     });
 };
