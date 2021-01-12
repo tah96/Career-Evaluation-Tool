@@ -1,10 +1,38 @@
 // Use the D3 libary to read in "jobtitles.json" file.  
 //  Add list of job titles to drop down menu.
+
+d3.json("jobtitles.json").then(function (data) {
+    // console.log(data);
+    for (var i = 0; i < data.length; i++) {
+        var option = d3.select("#jobDataset").append("option").text(data[i].Title);
+        // console.log(option);
+    }
+});
+
 function unpack(rows, index) {
     return rows.map(function (row) {
         return row[index];
     });
 }
+
+// Set map to geographic center of USA
+const centerLatLng = [39.8283, -98.5795]
+
+// Create base map in Leaflet
+var myMap = L.map("map", {
+    center: centerLatLng,
+    zoom: 5,
+});
+
+L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
+    attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
+    tileSize: 512,
+    maxZoom: 18,
+    zoomOffset: -1,
+    id: "mapbox/streets-v11",
+    accessToken: API_KEY
+}).addTo(myMap);
+
 
 d3.selectAll("#jobDataset").on("change", optionChanged);
 d3.selectAll(".location-filter").on("change", optionChanged).on("submit", optionChanged);
@@ -23,9 +51,12 @@ function optionChanged() {
     //Filter for the respective code for the title using the jobtitles.json file.
     d3.json("jobtitles.json").then(function (data) {
         var jobs = data
+        // console.log(jobs)
         var search = jobs.filter(job => job.Title == title);
+        // console.log(search);
         var code = search[0].Code;
         search_code.push(code);
+        // console.log(code);
     });
 
     console.log(search_code)
@@ -99,14 +130,47 @@ function optionChanged() {
         Plotly.newPlot('box', boxchart, layout2);
     });
 
+    d3.json("jobgrowth.json").then(function (data5) {
+        console.log(data5);
+        var growth = data5;
+        var percent = growth.filter(info4 => info4.code == search_code);
+        var percentage_change = percent[0];
+        var percentage_change_info = d3.select("ul");
+        var percent_growth = d3.select('ul').append('li').text(`% Employment Change (2019-29): ${percentage_change.percent_employment_changes}`);
+    });
+
+    d3.json("all_state_data.json").then(function (data6) {
+        // console.log(data6);
+        // console.log(search_code); 
+        var jobData = data6.filter(info5 => info5.Occupation_Code == search_code)
+        // console.log(jobData);
+
+        for (var i = 0; i < jobData.length; i++) {
+            var meanHourly = jobData[i].Mean_Hourly_Income;
+            //console.log(meanHourly);
+        }
+
+        for (var i = 0; i < jobData.length; i++) {
+            var d = jobData[i];
+            const lng = d.Longitude;
+            const lat = d.Latitude;
+            const lnglat = { lon: lng, lat: lat };
+            L.marker(lnglat)
+                .bindPopup("<h3> Salary Statistics for <strong>" + d.Occupation_Title + "</strong> in " + d.State + "</h3> <hr> <h6> Mean Hourly Income: " + d.Mean_Hourly_Income + "</h6> <hr> <h6> Mean Annual Income: " + d.Mean_Annual_Income + "</h6> <hr> <h6> Mean Hourly Income: " + d.Median_Hourly_Income + "</h6> <hr> <h6> Mean Annual Income: " + d.Median_Annual_Income + "</h6>")
+                .addTo(myMap);
+            //console.log(d.Mean_Hourly_Income);
+        }
+    });
+
+
     var api_url = `https://api.careeronestop.org/v1/jobsearch/wuRO5lcrwDHuOce/${title}/${locationValue}/10/0/0/1/5/30`
     console.log(api_url)
 
     d3.json(api_url, {
         headers: new Headers({
             "Authorization": `Bearer blHjSxjGR1HbqZLw4GecmPnE+VuFzxX/zJmndSPV9JxvS8InRefDueufUtVCnUs2tH6n/sJDNFBhw+1dgM5oSA==`
-          })
-    }).then(function(cos_data) {
+        })
+    }).then(function (cos_data) {
         var job_listings = cos_data.Jobs;
         var cos_html = d3.select("#cos-api")
         cos_html.html("")

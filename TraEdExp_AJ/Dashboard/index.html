@@ -6,9 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>My Next Career</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://d3js.org/d3.v6.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="static/style.css">
 </head>
 
 <body>
@@ -28,6 +32,7 @@
         </div>
       </div>
     </div>
+    <br>
     <div class="row">
       <div class="col-md-4">
         <div class="panel panel-primary">
@@ -45,41 +50,55 @@
         <div id="box"></div>
       </div>
     </div>
+    <br>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-12">
+        <div id="map"></div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-12">
         <div class="panel panel-primary">
           <div class="panel-heading">
             <h3 class="panel-title">Jobs in Your Area:
-            <form id="location-form" class ="location-filter">
-              <div class="form-group">
-                <ul class="list-group" id="filters">
-                  <li class="filter list-group-item">
-                    <input class="form-control" id="location-input" type="text" placeholder="Raleigh, NC">
-                  </li>
-                </ul>
-              </div>
-            </form>
+              <form id="location-form" class="location-filter">
+                <div class="form-group">
+                  <ul class="list-group" id="filters">
+                    <li class="filter list-group-item">
+                      <input class="form-control" id="location-input" type="text" placeholder="Raleigh, NC">
+                    </li>
+                  </ul>
+                </div>
+              </form>
             </h3>
           </div>
           <div id="cos-api" class="panel-body">
           </div>
           <div class="panel-footer">
             <p class="panel-text"><small class="text-muted">
-              Job Information from <a href=https://www.careeronestop.org/toolkit/jobs/find-jobs.aspx?newsearch=true>https://www.careeronestop.org/toolkit/jobs/find-jobs.aspx?newsearch=true</a>, part of the CareerOneStop suite of web products, sponsored by the U.S. Department of Labor Employment and Training Administration.
-            </small></p>
+                Job Information from <a
+                  href=https://www.careeronestop.org/toolkit/jobs/find-jobs.aspx?newsearch=true>https://www.careeronestop.org/toolkit/jobs/find-jobs.aspx?newsearch=true</a>,
+                part of the CareerOneStop suite of web products, sponsored by the U.S. Department of Labor Employment
+                and Training Administration.
+              </small></p>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script>
-    <script src="jobtitles.json"></script>
-    <script src="train_edu_exp.json"></script>
-    <script src="Salary.json"></script>
-    <script src="national_emp_data.json"></script>
-    <script src="./static/app.js"></script>
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script>
+  <script src="jobtitles.json"></script>
+  <script src="train_edu_exp.json"></script>
+  <script src="Salary.json"></script>
+  <script src="national_emp_data.json"></script>
+  <script src="all_state_data.json"></script>
+  <script type="text/javascript" src="config.js"></script>
+  <script src="./static/app.js"></script>
 </body>
 
 </html>
