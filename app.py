@@ -59,6 +59,28 @@ class national_emp_data(db.Model):
     Mean_Annual_Income = db.Column(db.Integer)
 
 
+class all_state_data(db.Model):
+    Index = db.Column(db.Integer, primary_key=True)
+    Area_Code = db.Column(db.Integer)
+    State = db.Column(db.String)
+    Occupation_Code = db.Column(db.String)
+    Occupation_Title = db.Column(db.String)
+    Total_Employment = db.Column(db.Integer)
+    Mean_Hourly_Income = db.Column(db.Integer)
+    Hourly_10th_Percentile = db.Column(db.Integer)
+    Hourly_25th_Percentile = db.Column(db.Integer)
+    Median_Hourly_Income = db.Column(db.Integer)
+    Hourly_75th_Percentile = db.Column(db.Integer)
+    Hourly_90th_Percentile = db.Column(db.Integer)
+    Mean_Annual_Income = db.Column(db.String)
+    Annual_10th_Percentile = db.Column(db.String)
+    Annual_25th_Percentile = db.Column(db.String)
+    Median_Annual_Income = db.Column(db.String)
+    Annual_75th_Percentile = db.Column(db.String)
+    Annual_90th_Percentile = db.Column(db.String)
+    Mean_Annual_Income = db.Column(db.Integer)
+
+
 @app.route("/")
 def index():
     return render_template("index.html")
@@ -139,10 +161,42 @@ def getnational_emp_dataPosgres():
             "Median_Annual_Income": n_salary.Median_Annual_Income,
             "Annual_75th_Percentile": n_salary.Annual_75th_Percentile,
             "Annual_90th_Percentile": n_salary.Annual_90th_Percentile,
-            "Mean_Annual_Income": n_salary.Mean_Annual_Income
+            "Mean_Annual_Income": state.Mean_Annual_Income,
         }
         ns.append(item)
     return jsonify(ns)
+
+
+@app.route("/api/all_state_data")
+def getall_state_dataPosgres():
+    state_data = db.session.query(all_state_data)
+    states = []
+    for state in state_data:
+        item = {
+            "Index": state.Index,
+            "Area_Code": state.Area_Code,
+            "State": state.State,
+            "Occupation_Code": state.Occupation_Code,
+            "Occupation_Title": state.Occupation_Title,
+            "Total_Employment": state.Total_Employment,
+            "Mean_Hourly_Income": state.Mean_Hourly_Income,
+            "Hourly_10th_Percentile": state.Hourly_10th_Percentile,
+            "Hourly_25th_Percentile": state.Hourly_25th_Percentile,
+            "Median_Hourly_Income": state.Median_Hourly_Income,
+            "Hourly_75th_Percentile": state.Hourly_75th_Percentile,
+            "Hourly_90th_Percentile": state.Hourly_90th_Percentile,
+            "Mean_Annual_Income": state.Mean_Annual_Income,
+            "Annual_10th_Percentile": state.Annual_10th_Percentile,
+            "Annual_25th_Percentile": state.Annual_25th_Percentile,
+            "Median_Annual_Income": state.Median_Annual_Income,
+            "Annual_75th_Percentile": state.Annual_75th_Percentile,
+            "Annual_90th_Percentile": state.Annual_90th_Percentile,
+            "Mean_Annual_Income": state.Mean_Annual_Income,
+            "Latitude": state.Latitude,
+            "Longitude": state.Longitude
+        }
+        states.append(item)
+    return jsonify(states)
 
 
 if __name__ == "__main__":

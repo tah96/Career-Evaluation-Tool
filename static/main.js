@@ -103,15 +103,16 @@ function optionChanged() {
         //console.log(salary);
         var median = salary.filter(info2 => info2.Code == search_code);
         var median_salary = median[0];
-        console.log(median_salary);
+        //console.log(median_salary);
         var median_salary_info = d3.select("ul");
         var salary = d3.select('ul').append('li').text(`Median Annual Salary: $${median_salary.Median_Annual_Wage}`);
-        console.log(median_salary.Median_Annual_Wage);
+        //console.log(median_salary.Median_Annual_Wage);
     });
 
-    d3.json("national_emp_data.json").then(function (data4) {
+    d3.json("/api/national_emp_data").then(function (data4) {
+        console.log(data4);
         var salary_range = data4;
-        var range = salary_range.filter(info3 => info3.Occupation_Code == search_code);
+        var range = salary_range.filter(info3 => info3.Code == search_code);
         var final_salary = range[0];
 
         //Graphed select Avg National Salary Data as a box plot.
@@ -142,7 +143,7 @@ function optionChanged() {
         var percent_growth = d3.select('ul').append('li').text(`% Employment Change (2019-29): ${percentage_change.percent_employment_changes}`);
     });
 
-    d3.json("all_state_data.json").then(function (data6) {
+    d3.json("/api/all_state_data").then(function (data6) {
         // console.log(data6);
         // console.log(search_code); 
         var jobData = data6.filter(info5 => info5.Occupation_Code == search_code)
