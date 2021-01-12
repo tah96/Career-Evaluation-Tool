@@ -160,8 +160,7 @@ def getnational_emp_dataPosgres():
             "Annual_25th_Percentile": n_salary.Annual_25th_Percentile,
             "Median_Annual_Income": n_salary.Median_Annual_Income,
             "Annual_75th_Percentile": n_salary.Annual_75th_Percentile,
-            "Annual_90th_Percentile": n_salary.Annual_90th_Percentile,
-            "Mean_Annual_Income": state.Mean_Annual_Income,
+            "Annual_90th_Percentile": n_salary.Annual_90th_Percentile
         }
         ns.append(item)
     return jsonify(ns)
