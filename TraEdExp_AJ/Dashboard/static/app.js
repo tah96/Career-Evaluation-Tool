@@ -1,13 +1,5 @@
 // Use the D3 libary to read in "jobtitles.json" file.  
 //  Add list of job titles to drop down menu.
-d3.json("jobtitles.json").then(function (data) {
-    console.log(data);
-    for (var i = 0; i < data.length; i++) {
-        var option = d3.select("#jobDataset").append("option").text(data[i].Title);
-        console.log(option);
-    }
-});
-
 function unpack(rows, index) {
     return rows.map(function (row) {
         return row[index];
@@ -17,7 +9,7 @@ function unpack(rows, index) {
 d3.selectAll("#jobDataset").on("change", optionChanged);
 
 function optionChanged() {
-    d3.event.preventDefault();
+    //d3.event.preventDefault();
 
     var dropdownoptions = d3.select("#jobDataset");
     var title = dropdownoptions.property("value");
@@ -109,4 +101,18 @@ function optionChanged() {
         Plotly.newPlot('box', boxchart, layout2);
     });
 };
+
+function init() {
+    d3.json("jobtitles.json").then(function (data) {
+        for (var i = 0; i < data.length; i++) {
+            var option = d3.select("#jobDataset").append("option").text(data[i].Title);
+            console.log(option);
+        }
+        var loading_job = data[0].Title
+        console.log(loading_job)
+        optionChanged(loading_job)
+    });
+}
+
+init()
 
