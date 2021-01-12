@@ -2,10 +2,10 @@
 //  Add list of job titles to drop down menu.
 
 d3.json("/api/emptitle").then(function (data) {
-    //console.log(data);
+    console.log(data);
     for (var i = 0; i < data.length; i++) {
         var option = d3.select("#jobDataset").append("option").text(data[i].Title);
-        //console.log(option);
+        console.log(option);
     }
 });
 
@@ -134,7 +134,7 @@ function optionChanged() {
         Plotly.newPlot('box', boxchart, layout2);
     });
 
-    d3.json("jobgrowth.json").then(function (data5) {
+    d3.json("/api/projected_growth").then(function (data5) {
         console.log(data5);
         var growth = data5;
         var percent = growth.filter(info4 => info4.code == search_code);

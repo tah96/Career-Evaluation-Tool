@@ -38,6 +38,19 @@ class trainingeduationexperience(db.Model):
     Training = db.Column(db.String)
 
 
+class projected_growth(db.Model):
+    Index = db.Column(db.Integer, primary_key=True)
+    Title = db.Column(db.String)
+    Code = db.Column(db.String)
+    Occupational_type = db.column(db.String)
+    2019_Employment = db.column(db.String)
+    2029_Employment = db.column(db.String)
+    2019_2029_Change = db.column(db.String)
+    2019-2029_Percent_Change = db.column(db.String)
+    Percent_self_employed_2019 = db.column(db.String)
+    Occupational_openings_2019-29_annual_average = db.column(db.String)
+
+
 class national_emp_data(db.Model):
     Index = db.Column(db.Integer, primary_key=True)
     Area_Code = db.Column(db.Integer)
@@ -136,6 +149,27 @@ def gettrainingeduationexperiencePosgres():
         }
         edu_tra_exp_data.append(item)
     return jsonify(edu_tra_exp_data)
+
+
+@app.route("/api/projected_growth")
+def projected_growth_dataPosgres():
+    job_growth = db.session.query(projected_growth)
+    growth = []
+    for jobs in job_growth:
+        item = {
+            "Index": jobs.Index,
+            "Title": jobs.Title,
+            "Code": jobs.Code,
+            "Occupational Type": jobs.Occupational_Type,
+            "2019_Employment": jobs.2019_Employment,
+            "2029_Employment": jobs.2029_Employment,
+            "2019_2029_Change" jobs.2019_2029_Change,
+            "2019-2029_Percent_Change": jobs.2019-2029_Percent_Change,
+            "Percent_self_employed_2019": jobs.Percent_self_employed_2019,
+            "Occupational_openings_2019-29_annual_average": jobs.Occupational_openings_2019-29_annual_average,
+        }
+        growth.append(item)
+    return jsonify(growth)(edited)
 
 
 @app.route("/api/national_emp_data")
