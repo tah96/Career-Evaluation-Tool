@@ -1,35 +1,39 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 from os import environ
 
 app = Flask(__name__)
 
 app.config["SQLALCHEMY_DATABASE_URI"] = environ.get(
-    "DATABASE_URL", "sqlite:///jobs.sqlite")
+    "DATABASE_URL", "postgres://tbsmkoutvlftbs:78a43d94f5ad0fa28526b8510e9aaae2938aeb27cbf50cfe2cb6235c56aa4d41@ec2-54-159-107-189.compute-1.amazonaws.com:5432/de1p8goqk2oub3")
 
 db = SQLAlchemy(app)
 
-class Job(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    description = db.Column(db.String)
+
+class emptitle(db.Model):
+    Index = db.Column(db.Integer, primary_key=True)
+    Title = db.Column(db.String)
+    Code = db.Column(db.String)
+
 
 @app.route("/")
 def index():
-    return "This is our employment data API for Project 2 of the UNC Data Analytics Bootcamp"
+    return render_template("index.html")
+
 
 @app.route("/api/job-data")
 def getJobsPosgres():
-    jobs = db.session.query(Job)
+    jobs = db.session.query(emptitle)
     data = []
-
     for job in jobs:
         item = {
-            "id": job.id,
-            "description": job.description
+            "Index": job.Index,
+            "Title": job.Title,
+            "Code": job.Code
         }
         data.append(item)
+    return jsonify(data)
 
-    return jsonify(item)
 
 if __name__ == "__main__":
     app.run(debug=True)
