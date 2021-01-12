@@ -7,6 +7,7 @@ function unpack(rows, index) {
 }
 
 d3.selectAll("#jobDataset").on("change", optionChanged);
+d3.selectAll(".location-filter").on("change", optionChanged).on("submit", optionChanged);
 
 function optionChanged() {
     //d3.event.preventDefault();
@@ -26,6 +27,8 @@ function optionChanged() {
         var code = search[0].Code;
         search_code.push(code);
     });
+
+    console.log(search_code)
 
     //Filter using the code for training, education & experience info using the train_edu_exp.json file.
     //Display in Career Snapshot panel.
@@ -69,6 +72,7 @@ function optionChanged() {
         var median_salary = median[0];
         var median_salary_info = d3.select("ul");
         var salary = d3.select('ul').append('li').text(`Median Annual Salary: $${median_salary.Median_Annual_Wage}`);
+        console.log(median_salary.Median_Annual_Wage);
     });
 
     d3.json("national_emp_data.json").then(function (data4) {
@@ -103,13 +107,10 @@ function optionChanged() {
             "Authorization": `Bearer blHjSxjGR1HbqZLw4GecmPnE+VuFzxX/zJmndSPV9JxvS8InRefDueufUtVCnUs2tH6n/sJDNFBhw+1dgM5oSA==`
           })
     }).then(function(cos_data) {
-        console.log(cos_data);
         var job_listings = cos_data.Jobs;
-        console.log(job_listings);
         var cos_html = d3.select("#cos-api")
         cos_html.html("")
         job_listings.forEach(job => {
-            console.log(job);
             var job_title = job.JobTitle;
             var job_company = job.Company;
             var job_posting_date = job.AccquisitionDate;
