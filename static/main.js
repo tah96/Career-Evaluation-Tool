@@ -1,11 +1,11 @@
-// Use the D3 libary to read in "jobtitles.json" file.  
+// Use the D3 libary to read in emptitles route.  
 //  Add list of job titles to drop down menu.
 
 d3.json("/api/emptitle").then(function (data) {
-    console.log(data);
+    //console.log(data);
     for (var i = 0; i < data.length; i++) {
         var option = d3.select("#jobDataset").append("option").text(data[i].Title);
-        // console.log(option);
+        //console.log(option);
     }
 });
 
@@ -30,7 +30,7 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     maxZoom: 18,
     zoomOffset: -1,
     id: "mapbox/streets-v11",
-    accessToken: API_KEY
+    accessToken: "pk.eyJ1IjoiYWp3dTEwMCIsImEiOiJja2lzMzhnb3YwZHViMnVyeGZpNHJiMTZwIn0.MKIMiQD8yXZeE5y2Y2Xnpg"
 }).addTo(myMap);
 
 
@@ -39,7 +39,6 @@ d3.selectAll(".location-filter").on("change", optionChanged).on("submit", option
 
 function optionChanged() {
     //d3.event.preventDefault();
-
     var dropdownoptions = d3.select("#jobDataset");
     var title = dropdownoptions.property("value");
     var locationElement = d3.select("#location-input");
@@ -51,12 +50,12 @@ function optionChanged() {
     //Filter for the respective code for the title using the jobtitles.json file.
     d3.json("/api/emptitle").then(function (data) {
         var jobs = data
-        console.log(jobs)
+        //console.log(jobs)
         var search = jobs.filter(job => job.Title == title);
-        console.log(search);
+        //console.log(search);
         var code = search[0].Code;
         search_code.push(code);
-        // console.log(code);
+        console.log(code);
     });
 
     console.log(search_code)
@@ -64,8 +63,9 @@ function optionChanged() {
     //Filter using the code for training, education & experience info using the train_edu_exp.json file.
     //Display in Career Snapshot panel.
     //Display as a donut graph 
-    d3.json("train_edu_exp.json").then(function (data2) {
+    d3.json("/api/traineduexp").then(function (data2) {
         var edu_tra_exp = data2;
+        //console.log(edu_tra_exp);
         var ete = edu_tra_exp.filter(info => info.Code == search_code);
         var ete_info = ete[0];
         var eteinfo = d3.select("ul");
@@ -98,9 +98,12 @@ function optionChanged() {
     //Display Median Salary in Career Snapshot panel.
 
     d3.json("/api/salaryfinal").then(function (data3) {
+        //console.log(data3);
         var salary = data3;
+        //console.log(salary);
         var median = salary.filter(info2 => info2.Code == search_code);
         var median_salary = median[0];
+        console.log(median_salary);
         var median_salary_info = d3.select("ul");
         var salary = d3.select('ul').append('li').text(`Median Annual Salary: $${median_salary.Median_Annual_Wage}`);
         console.log(median_salary.Median_Annual_Wage);
