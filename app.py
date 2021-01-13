@@ -56,6 +56,7 @@ class national_emp_data(db.Model):
     Median_Annual_Income = db.Column(db.Integer)
     Annual_75th_Percentile = db.Column(db.Integer)
     Annual_90th_Percentile = db.Column(db.Integer)
+    Mean_Annual_Income = db.Column(db.Integer)
 
 
 class all_states(db.Model):
@@ -64,21 +65,22 @@ class all_states(db.Model):
     State = db.Column(db.String)
     Occupation_Code = db.Column(db.String)
     Occupation_Title = db.Column(db.String)
-    Total_Employment = db.Column(db.Integer)
-    Mean_Hourly_Income = db.Column(db.Integer)
-    Hourly_10th_Percentile = db.Column(db.Integer)
-    Hourly_25th_Percentile = db.Column(db.Integer)
-    Median_Hourly_Income = db.Column(db.Integer)
-    Hourly_75th_Percentile = db.Column(db.Integer)
-    Hourly_90th_Percentile = db.Column(db.Integer)
-    Mean_Annual_Income = db.Column(db.Integer)
-    Annual_10th_Percentile = db.Column(db.Integer)
-    Annual_25th_Percentile = db.Column(db.Integer)
-    Median_Annual_Income = db.Column(db.Integer)
-    Annual_75th_Percentile = db.Column(db.Integer)
-    Annual_90th_Percentile = db.Column(db.Integer)
+    Total_Employment = db.Column(db.String)
+    Mean_Hourly_Income = db.Column(db.String)
+    Hourly_10th_Percentile = db.Column(db.String)
+    Hourly_25th_Percentile = db.Column(db.String)
+    Median_Hourly_Income = db.Column(db.String)
+    Hourly_75th_Percentile = db.Column(db.String)
+    Hourly_90th_Percentile = db.Column(db.String)
+    Mean_Annual_Income = db.Column(db.String)
+    Annual_10th_Percentile = db.Column(db.String)
+    Annual_25th_Percentile = db.Column(db.String)
+    Median_Annual_Income = db.Column(db.String)
+    Annual_75th_Percentile = db.Column(db.String)
+    Annual_90th_Percentile = db.Column(db.String)
     Latitude = db.Column(db.Integer)
     Longitude = db.Column(db.Integer)
+
 
 class projected_growth(db.Model):
     Index = db.Column(db.Integer, primary_key=True)
@@ -88,9 +90,9 @@ class projected_growth(db.Model):
     Employment_A = db.Column(db.String)
     Employment_B = db.Column(db.String)
     Ten_Year_Change = db.Column(db.String)
-    Ten_Year_Percent_Change = db.Column(db.String)
+    Ten_Year_Percent_Change = db.Column(db.Integer)
     Percent_self_employed = db.Column(db.String)
-    Occupational_openings_Ten_Year_Annual_Average = db.Column(db.String)
+    Occupational_openings_Ten_Year_Annual_Average = db.Column(db.Integer)
 
 
 @app.route("/")

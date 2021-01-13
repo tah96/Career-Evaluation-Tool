@@ -43,13 +43,11 @@ function optionChanged() {
     var title = dropdownoptions.property("value");
     var locationElement = d3.select("#location-input");
     var locationValue = locationElement.property("value")
-    console.log(title);
-    //console.log(locationValue);
-    //var eteinfo = d3.select('#career-snapshot');
-    //eteinfo.html("")
+    //console.log(title);
+    //console.log(locationValue)
 
     search_code = [];
-    //Filter for the respective code for the title using the jobtitles.json file.
+    //Filter for the respective code for the title using the emptitle json.
     d3.json("/api/emptitle").then(function (data) {
         var jobs = data
         //console.log(jobs)
@@ -57,12 +55,14 @@ function optionChanged() {
         //console.log(search);
         var code = search[0].Code;
         search_code.push(code);
-        console.log(code);
+        //console.log(code);
     });
 
     console.log(search_code)
+    var eteinfo = d3.select("ul");
+    eteinfo.html("");
 
-    //Filter using the code for training, education & experience info using the train_edu_exp.json file.
+    //Filter using the code for training, education & experience info using the traineduexp json.
     //Display in Career Snapshot panel.
     //Display as a donut graph 
     d3.json("/api/traineduexp").then(function (data2) {
@@ -70,26 +70,11 @@ function optionChanged() {
         //console.log(edu_tra_exp);
         var ete = edu_tra_exp.filter(info => info.Code == search_code);
         var ete_info = ete[0];
-        var eteinfo = d3.select('#sample-metadata');
-        eteinfo.html("");
-        var education = eteinfo.append("ul").html(`<b>Education for Entry</b>: ${ete_info.Education}`);
-        var experience = eteinfo.append("ul").html(`<b>Work Experience</b>: ${ete_info.Experience}`);
-        var training = eteinfo.append("ul").html(`<b>On Job Training</b>: ${ete_info.Training}`);
-
-        //Filter using the code for Salary info using the Salary.json file.
-        //Display Median Salary in Career Snapshot panel AFTER educ, training and experience info
-
-        d3.json("/api/salaryfinal").then(function (data3) {
-            //console.log(data3);
-            var salary = data3;
-            //console.log(salary);
-            var median = salary.filter(info2 => info2.Code == search_code);
-            var median_salary = median[0];
-            console.log(median)
-            //console.log(median_salary)
-            var salary = eteinfo.append('ul').html(`<b>Median Annual Salary</b>: $${median_salary.Median_Annual_Wage}`);
-            //console.log(median_salary.Median_Annual_Wage);
-        });
+        //var eteinfo = d3.select("ul");
+        //eteinfo.html("");
+        var education = d3.select('ul').append('li').text(`Typical education needed for entry: ${ete_info.Education}`);
+        var experience = d3.select('ul').append('li').text(`Work experience in a related occupation: ${ete_info.Experience}`);
+        var training = d3.select('ul').append('li').text(`Typical on the job training: ${ete_info.Training}`);
 
         //Graphed select Education Data as a pie chart.
 
@@ -120,26 +105,27 @@ function optionChanged() {
 
     });
 
-    //Filter using the code for Salary info using the Salary.json file.
+    //Filter using the code for Salary info using the salaryfinal json.
     //Display Median Salary in Career Snapshot panel.
 
-    // d3.json("/api/salaryfinal").then(function (data3) {
-    //     //console.log(data3);
-    //     var salary = data3;
-    //     //console.log(salary);
-    //     var median = salary.filter(info2 => info2.Code == search_code);
-    //     var median_salary = median[0];
-    //     console.log(median)
-    //     //console.log(median_salary)
-    //     var salary = d3.select('#career-snapshot').append('li').text(`Median Annual Salary: $${median_salary.Median_Annual_Wage}`);
-    //     //console.log(median_salary.Median_Annual_Wage);
-    // });
+    d3.json("/api/salaryfinal").then(function (data3) {
+        //console.log(data3);
+        var salary = data3;
+        //console.log(salary);
+        var median = salary.filter(info2 => info2.Code == search_code);
+        var median_salary = median[0];
+        console.log(median_salary);
+        var median_salary_info = d3.select("ul");
+        var salary = d3.select('ul').append('li').text(`Median Annual Salary: $${median_salary.Median_Annual_Wage}`);
+        //console.log(median_salary.Median_Annual_Wage);
+    });
 
     d3.json("/api/national_emp_data").then(function (data4) {
         //console.log(data4);
         var salary_range = data4;
         var range = salary_range.filter(info3 => info3.Code == search_code);
         var final_salary = range[0];
+        //console.log(final_salary);
 
         //Graphed select Avg National Salary Data as a box plot.
         var boxchart = [{
@@ -161,14 +147,16 @@ function optionChanged() {
         Plotly.newPlot('box', boxchart, layout2);
     });
 
-    //d3.json("/api/projected_growth").then(function (data5) {
-    //console.log(data5);
-    //var growth = data5;
-    //var percent = growth.filter(info4 => info4.code == search_code);
-    //var percentage_change = percent[0];
-    //var percentage_change_info = d3.select("ul");
-    //var percent_growth = d3.select('ul').append('li').text(`% Employment Change (2019-29): ${percentage_change.percent_employment_changes}`);
-    //});
+    d3.json("/api/projected_growth").then(function (data5) {
+        //console.log(data5);
+        var growth = data5;
+        var percent = growth.filter(info4 => info4.Code == search_code);
+        var percentage_change = percent[0];
+        console.log(percentage_change);
+        var percentage_change_info = d3.select("ul");
+        var percent_growth = d3.select('ul').append('li').text(`% Employment Change (2019-29): ${percentage_change.Ten_Year_Percent_Change}`);
+        console.log(percentage_change.Ten_Year_Percent_Change);
+    });
 
     d3.json("/api/all_states").then(function (data6) {
         //console.log(data6);
