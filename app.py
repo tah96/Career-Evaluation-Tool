@@ -223,7 +223,6 @@ def getall_statesPosgres():
             "Median_Annual_Income": state.Median_Annual_Income,
             "Annual_75th_Percentile": state.Annual_75th_Percentile,
             "Annual_90th_Percentile": state.Annual_90th_Percentile,
-            "Mean_Annual_Income": state.Mean_Annual_Income,
             "Latitude": state.Latitude,
             "Longitude": state.Longitude
         }
