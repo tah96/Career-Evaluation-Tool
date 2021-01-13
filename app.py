@@ -80,6 +80,18 @@ class all_states(db.Model):
     Latitude = db.Column(db.Integer)
     Longitude = db.Column(db.Integer)
 
+class projected_growth(db.Model):
+    Index = db.Column(db.Integer, primary_key=True)
+    Title = db.Column(db.String)
+    Code = db.Column(db.String)
+    Type = db.Column(db.String)
+    Employment_A = db.Column(db.String)
+    Employment_B = db.Column(db.String)
+    Ten_Year_Change = db.Column(db.String)
+    Ten_Year_Percent_Change = db.Column(db.String)
+    Percent_self_employed = db.Column(db.String)
+    Occupational_openings_Ten_Year_Annual_Average = db.Column(db.String)
+
 
 @app.route("/")
 def index():
