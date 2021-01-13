@@ -197,7 +197,7 @@ function optionChanged() {
             const lat = d.Latitude;
             const lnglat = { lon: lng, lat: lat };
             L.marker(lnglat)
-                .bindPopup("<h3> Salary Statistics for <strong>" + d.Occupation_Title + "</strong> in " + d.State + "</h3> <hr> <h6> Mean Hourly Income: $" + d.Mean_Hourly_Income + "</h6> <hr> <h6> Mean Annual Income: $" + d.Mean_Annual_Income + "</h6> <hr> <h6> Mean Hourly Income: $" + d.Median_Hourly_Income + "</h6> <hr> <h6> Mean Annual Income: $" + d.Median_Annual_Income + "</h6>")
+                .bindPopup("<h3> Salary Statistics for <strong>" + d.Occupation_Title + "</strong> in " + d.State + "</h3> <hr> <h6> Mean Hourly Income: $" + d.Mean_Hourly_Income + "</h6> <hr> <h6> Mean Annual Income: $" + d.Mean_Annual_Income + "</h6> <hr> <h6> Median Hourly Income: $" + d.Median_Hourly_Income + "</h6> <hr> <h6> Median Annual Income: $" + d.Median_Annual_Income + "</h6>")
                 .addTo(myMap);
             //console.log(d.Mean_Hourly_Income);
         }
