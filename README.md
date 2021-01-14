@@ -23,7 +23,7 @@ LINK: https://group-5-project-2.herokuapp.com/
 
 5. TraEdExp_AJ (by Ai-Jiuan Wu):
     a. Resources sub-folder:
-        - Contains the jupyter notebbok file (TrainingEdExp.ipynb) that extracted and transformed the csv data for training, education and experience, resulting in the final 5 csv files.
+      - Contains the jupyter notebbok file (TrainingEdExp.ipynb) that extracted and transformed the csv data for training, education and experience, resulting in the final 5 csv files.
       - The 5 csv files include TrainingEdExp1FINAL.csv, TrainingEdExp2FINAL.csv, TrainingEducationExperience.csv, EmpTitle_Code.csv and national_emp_data_v2.csv.
     b. Dashboard sub-folder:
       - Contains the supporting files that was used to create the app dashboard (outside Heroku and without api routes) using json files that we converted from the final csv files.
