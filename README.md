@@ -42,7 +42,7 @@ LINK: https://group-5-project-2.herokuapp.com/
       - Final main2th.js (replaced json file links with API routes) and style.css for visualization in Heroku site (LINK shown above).
       - main.js is a draft in which the snapshop view still need to be improved.
 
-10. templates folder: Final contig.js (API key) and index.html for visualization in Heroku site.
+10. templates folder: Final config.js (API key) and index.html for visualization in Heroku site.
 
 ## Project accomplishments: 
 - Filtered data on occupations in computer, math, legal, education, healthcare, and sales-related industries
