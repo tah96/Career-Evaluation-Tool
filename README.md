@@ -22,15 +22,15 @@ LINK: https://group-5-project-2.herokuapp.com/
 4. Job Growth (by Joseph Pegram): Contains the following CSV's (Employment By Major Occupational group, Fastest Declining Occupation, Fastest Growing Occupation and Occupational Projections) and transformed to (employment_occupation, fastest_decline, fastest_growing and projected_growth). The app.js and package-lock.json was apart of the Node.js module and CSVTOJSON was used to transform projected_growth.csv to jobgrowth.json.
 
 5. TraEdExp_AJ (by Ai-Jiuan Wu):
-    a. Resources sub-folder:
-      - Contains the jupyter notebbok file (TrainingEdExp.ipynb) that extracted and transformed the csv data for training, education and experience, resulting in the final 5 csv files.
-      - The 5 csv files include TrainingEdExp1FINAL.csv, TrainingEdExp2FINAL.csv, TrainingEducationExperience.csv, EmpTitle_Code.csv and national_emp_data_v2.csv.
-    b. Dashboard sub-folder:
-      - Contains the supporting files that was used to create the app dashboard (outside Heroku and without api routes) using json files that we converted from the final csv files.
-      - We used the web based app (https://csvjson.com/csv2json) to make the csv to json convertions. The converted json files included all_state_data.json, jobtitles.json, national_emp_data.json, Salary.json, train_edu_exp.json, and jobgrowth.json (generated independently by Joseph using a JSON conversion library in JS). 
-      - config.js (API code for Leaflet), index.html, app.js and style.css (app.html and style.css are in the static folder) are the supporting files that were used to create the data visualization.
-      - The app.js includes the supporting code to extract the job opportunities data from Career One Stop by Tyler Hunt and displayed in our dashboard.
-      - These files are to be used to run the local server version of the app.
+   a. Resources sub-folder:
+    - Contains the jupyter notebbok file (TrainingEdExp.ipynb) that extracted and transformed the csv data for training, education and experience, resulting in the final 5 csv files.
+    - The 5 csv files include TrainingEdExp1FINAL.csv, TrainingEdExp2FINAL.csv, TrainingEducationExperience.csv, EmpTitle_Code.csv and national_emp_data_v2.csv.
+   b. Dashboard sub-folder:
+    - Contains the supporting files that was used to create the app dashboard (outside Heroku and without api routes) using json files that we converted from the final csv files.
+    - We used the web based app (https://csvjson.com/csv2json) to make the csv to json convertions. The converted json files included all_state_data.json, jobtitles.json, national_emp_data.json, Salary.json, train_edu_exp.json, and jobgrowth.json (generated independently by Joseph using a JSON conversion library in JS). 
+    - config.js (API code for Leaflet), index.html, app.js and style.css (app.html and style.css are in the static folder) are the supporting files that were used to create the data visualization.
+    - The app.js includes the supporting code to extract the job opportunities data from Career One Stop by Tyler Hunt and displayed in our dashboard.
+    - These files are to be used to run the local server version of the app.
 
 6. app.py: Final app.py with json files defined routes for different tables in Heroku postgres.
 
