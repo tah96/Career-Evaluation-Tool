@@ -47,7 +47,7 @@ LINK: https://group-5-project-2.herokuapp.com/
 ## Project accomplishments: 
 - Filtered data on occupations in computer, math, legal, education, healthcare, and sales-related industries
 - Created an app that serves up visuals describing:
-       - typical education level required
-       - expected salary (nationally and by state)
-       - projected job growth over the next 10 years
-       - current opportunities
+   - typical education level required
+   - expected salary (nationally and by state)
+   - projected job growth over the next 10 years
+   - current opportunities
