@@ -7,8 +7,8 @@ UNC Data Analytics Bootcamp
 LINK: https://group-5-project-2.herokuapp.com/
 
 ## Project goals:
-Clean and filter career data for targeted industries.
-Create an app that dynamically searches by job title.
+- Clean and filter career data for targeted industries.
+- Create an app that dynamically searches by job title.
 
 ## Organization:
 "Group-5-Project-2" contains the following folders and the respective files:
@@ -45,9 +45,9 @@ Create an app that dynamically searches by job title.
 10. templates folder: Final contig.js (API key) and index.html for visualization in Heroku site.
 
 ## Project accomplishments: 
-Filtered data on occupations in computer, math, legal, education, healthcare, and sales-related industries
-Created app that serves up visuals describing:
-typical education level required
-expected salary (nationally and by state)
-projected job growth over the next 10 years
-current opportunities
+- Filtered data on occupations in computer, math, legal, education, healthcare, and sales-related industries
+- Created an app that serves up visuals describing:
+       - typical education level required
+       - expected salary (nationally and by state)
+       - projected job growth over the next 10 years
+       - current opportunities
