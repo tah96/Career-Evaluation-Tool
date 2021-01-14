@@ -19,7 +19,7 @@ LINK: https://group-5-project-2.herokuapp.com/
 
 3. geo_data_csvs (by Autumn Demonet):Contains the source csv files that was uploaded to the jupyter notebook (csv_cleaner.ipynb) to transform the data. The final 7 cleaned csv files are stored in cleaned_data.
 
-4. Job Growth (by Joseph Pegram):Contains the following CSV's (Employment By Major Occupational group, Fastest Declining Occupation, Fastest Growing Occupation and Occupational Projections) and transformed to (employment_occupation, fastest_decline, fastest_growing and projected_growth). The app.js and package-lock.json was apart of the Node.js module and CSVTOJSON was used to transform projected_growth.csv to jobgrowth.json.
+4. Job Growth (by Joseph Pegram): Contains the following CSV's (Employment By Major Occupational group, Fastest Declining Occupation, Fastest Growing Occupation and Occupational Projections) and transformed to (employment_occupation, fastest_decline, fastest_growing and projected_growth). The app.js and package-lock.json was apart of the Node.js module and CSVTOJSON was used to transform projected_growth.csv to jobgrowth.json.
 
 5. TraEdExp_AJ (by Ai-Jiuan Wu):
     a. Resources sub-folder:
