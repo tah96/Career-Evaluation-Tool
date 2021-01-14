@@ -15,8 +15,8 @@ geo_data_csvs (by Autumn Demonet):Contains the source csv files that was uploade
 
 Job Growth (by Joseph Pegram):
 
-TraEdExp_AJ (by Ai-Jiuan Wu): a. Resources sub-folder:
-
+TraEdExp_AJ (by Ai-Jiuan Wu): 
+a. Resources sub-folder:
 Contains the jupyter notebbok file (TrainingEdExp.ipynb) that extracted and transformed the csv data for training, education and experience, resulting in the final 5 csv files.
 The 5 csv files include TrainingEdExp1FINAL.csv, TrainingEdExp2FINAL.csv, TrainingEducationExperience.csv, EmpTitle_Code.csv and
 national_emp_data_v2.csv. b. Dashboard sub-folder:
