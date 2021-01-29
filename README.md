@@ -1,5 +1,5 @@
-# GROUP-5-PROJECT-2
-GROUP-5-PROJECT-2
+# Career Evaluation Tool
+Career Evaluation Tool
 By: Tyler Hunt, Autumn Demonet, David Marobella, Mikael Hall, Joseph Pegram, & Ai-Jiuan Wu
 
 UNC Data Analytics Bootcamp
